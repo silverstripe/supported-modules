@@ -15,7 +15,7 @@
         "github": "composer\/installers",
         "gitlab": null,
         "composer": "composer\/installers",
-        "type": "unknown"
+        "type": "supported-dependency"
     },
     {
         "github": null,
@@ -57,55 +57,13 @@
         "github": "hafriedlander\/phockito",
         "gitlab": null,
         "composer": "hafriedlander\/phockito",
-        "type": "supported-module"
+        "type": "supported-dependency"
     },
     {
         "github": "hafriedlander\/silverstripe-phockito",
         "gitlab": null,
         "composer": "hafriedlander\/silverstripe-phockito",
-        "type": "supported-module"
-    },
-    {
-        "github": "sebastianbergmann\/php-code-coverage",
-        "gitlab": null,
-        "composer": "phpunit\/php-code-coverage",
-        "type": "unknown"
-    },
-    {
-        "github": "sebastianbergmann\/php-file-iterator",
-        "gitlab": null,
-        "composer": "phpunit\/php-file-iterator",
-        "type": "unknown"
-    },
-    {
-        "github": "sebastianbergmann\/php-text-template",
-        "gitlab": null,
-        "composer": "phpunit\/php-text-template",
-        "type": "unknown"
-    },
-    {
-        "github": "sebastianbergmann\/php-timer",
-        "gitlab": null,
-        "composer": "phpunit\/php-timer",
-        "type": "unknown"
-    },
-    {
-        "github": "sebastianbergmann\/php-token-stream",
-        "gitlab": null,
-        "composer": "phpunit\/php-token-stream",
-        "type": "unknown"
-    },
-    {
-        "github": "sebastianbergmann\/phpunit",
-        "gitlab": null,
-        "composer": "phpunit\/phpunit",
-        "type": "unknown"
-    },
-    {
-        "github": "sebastianbergmann\/phpunit-mock-objects",
-        "gitlab": null,
-        "composer": "phpunit\/phpunit-mock-objects",
-        "type": "unknown"
+        "type": "supported-dependency"
     },
     {
         "github": "silverstripe-ux\/sass-twitter-bootstrap",
@@ -255,7 +213,7 @@
         "github": "silverstripe-labs\/silverstripe-selectupload",
         "gitlab": null,
         "composer": "silverstripe\/selectupload",
-        "type": "supported-module"
+        "type": "supported-dependency"
     },
     {
         "github": "silverstripe\/silverstripe-spamprotection",
@@ -321,7 +279,7 @@
         "github": "symfony\/yaml",
         "gitlab": null,
         "composer": "symfony\/yaml",
-        "type": "unknown"
+        "type": "supported-dependency"
     },
     {
         "github": "tijsverkoyen\/akismet",
