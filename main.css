@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 25px;
+    cursor: default;
+    font-family: "Helvetica", "Arial";
+    font-size: 15px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: normal;
+}
+
+th, td {
+    text-align: left;
+    padding: 5px;
+    border: solid 1px #ccc;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+}
+
+tbody tr:nth-child(2n+1) {
+    background: #eee;
+}
+
+.progress {
+    padding-left: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.progress.first {
+    padding-left: 5px;
+    border-left-width: 1px;
+}
+
+.progress.last {
+    border-right-width: 1px;
+}

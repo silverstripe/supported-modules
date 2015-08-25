@@ -1,0 +1,338 @@
+[
+    {
+        "github": "assertchris\/hash-compat",
+        "gitlab": null,
+        "composer": "assertchris\/hash-compat",
+        "type": "supported-module"
+    },
+    {
+        "github": "colymba\/GridFieldBulkEditingTools",
+        "gitlab": null,
+        "composer": "colymba\/gridfield-bulk-editing-tools",
+        "type": "supported-dependency"
+    },
+    {
+        "github": "composer\/installers",
+        "gitlab": null,
+        "composer": "composer\/installers",
+        "type": "unknown"
+    },
+    {
+        "github": null,
+        "gitlab": "cwp-themes\/default",
+        "composer": "cwp-themes\/default",
+        "type": "supported-module"
+    },
+    {
+        "github": null,
+        "gitlab": "cwp\/cwp",
+        "composer": "cwp\/cwp",
+        "type": "supported-module"
+    },
+    {
+        "github": null,
+        "gitlab": "cwp\/cwp-core",
+        "composer": "cwp\/cwp-core",
+        "type": "supported-module"
+    },
+    {
+        "github": null,
+        "gitlab": "cwp\/cwp-recipe-basic",
+        "composer": "cwp\/cwp-recipe-basic",
+        "type": "supported-module"
+    },
+    {
+        "github": null,
+        "gitlab": "cwp\/cwp-recipe-basic-dev",
+        "composer": "cwp\/cwp-recipe-basic-dev",
+        "type": "supported-module"
+    },
+    {
+        "github": null,
+        "gitlab": "cwp\/cwp-recipe-blog",
+        "composer": "cwp\/cwp-recipe-blog",
+        "type": "supported-module"
+    },
+    {
+        "github": "hafriedlander\/phockito",
+        "gitlab": null,
+        "composer": "hafriedlander\/phockito",
+        "type": "supported-module"
+    },
+    {
+        "github": "hafriedlander\/silverstripe-phockito",
+        "gitlab": null,
+        "composer": "hafriedlander\/silverstripe-phockito",
+        "type": "supported-module"
+    },
+    {
+        "github": "sebastianbergmann\/php-code-coverage",
+        "gitlab": null,
+        "composer": "phpunit\/php-code-coverage",
+        "type": "unknown"
+    },
+    {
+        "github": "sebastianbergmann\/php-file-iterator",
+        "gitlab": null,
+        "composer": "phpunit\/php-file-iterator",
+        "type": "unknown"
+    },
+    {
+        "github": "sebastianbergmann\/php-text-template",
+        "gitlab": null,
+        "composer": "phpunit\/php-text-template",
+        "type": "unknown"
+    },
+    {
+        "github": "sebastianbergmann\/php-timer",
+        "gitlab": null,
+        "composer": "phpunit\/php-timer",
+        "type": "unknown"
+    },
+    {
+        "github": "sebastianbergmann\/php-token-stream",
+        "gitlab": null,
+        "composer": "phpunit\/php-token-stream",
+        "type": "unknown"
+    },
+    {
+        "github": "sebastianbergmann\/phpunit",
+        "gitlab": null,
+        "composer": "phpunit\/phpunit",
+        "type": "unknown"
+    },
+    {
+        "github": "sebastianbergmann\/phpunit-mock-objects",
+        "gitlab": null,
+        "composer": "phpunit\/phpunit-mock-objects",
+        "type": "unknown"
+    },
+    {
+        "github": "silverstripe-ux\/sass-twitter-bootstrap",
+        "gitlab": null,
+        "composer": "silverstripe-themes\/module_bootstrap",
+        "type": "unknown"
+    },
+    {
+        "github": "silverstripe-australia\/advancedworkflow",
+        "gitlab": null,
+        "composer": "silverstripe\/advancedworkflow",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-akismet",
+        "gitlab": null,
+        "composer": "silverstripe\/akismet",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-blog",
+        "gitlab": null,
+        "composer": "silverstripe\/blog",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-cms",
+        "gitlab": null,
+        "composer": "silverstripe\/cms",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/comment-notifications",
+        "gitlab": null,
+        "composer": "silverstripe\/comment-notifications",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-comments",
+        "gitlab": null,
+        "composer": "silverstripe\/comments",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-content-widget",
+        "gitlab": null,
+        "composer": "silverstripe\/content-widget",
+        "type": "supported-module"
+    },
+    {
+        "github": null,
+        "gitlab": "silverstripe\/documentconverter",
+        "composer": "silverstripe\/documentconverter",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-environmentcheck",
+        "gitlab": null,
+        "composer": "silverstripe\/environmentcheck",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-externallinks",
+        "gitlab": null,
+        "composer": "silverstripe\/externallinks",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-framework",
+        "gitlab": null,
+        "composer": "silverstripe\/framework",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-fulltextsearch",
+        "gitlab": null,
+        "composer": "silverstripe\/fulltextsearch",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-html5",
+        "gitlab": null,
+        "composer": "silverstripe\/html5",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-hybridsessions",
+        "gitlab": null,
+        "composer": "silverstripe\/hybridsessions",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-iframe",
+        "gitlab": null,
+        "composer": "silverstripe\/iframe",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-lumberjack",
+        "gitlab": null,
+        "composer": "silverstripe\/lumberjack",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-mimevalidator",
+        "gitlab": null,
+        "composer": "silverstripe\/mimevalidator",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-australia\/silverstripe-multivaluefield",
+        "gitlab": null,
+        "composer": "silverstripe\/multivaluefield",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-australia\/silverstripe-queuedjobs",
+        "gitlab": null,
+        "composer": "silverstripe\/queuedjobs",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-registry",
+        "gitlab": null,
+        "composer": "silverstripe\/registry",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-restfulserver",
+        "gitlab": null,
+        "composer": "silverstripe\/restfulserver",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-secureassets",
+        "gitlab": null,
+        "composer": "silverstripe\/secureassets",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-securityreport",
+        "gitlab": null,
+        "composer": "silverstripe\/securityreport",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-selectupload",
+        "gitlab": null,
+        "composer": "silverstripe\/selectupload",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-spamprotection",
+        "gitlab": null,
+        "composer": "silverstripe\/spamprotection",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-spellcheck",
+        "gitlab": null,
+        "composer": "silverstripe\/spellcheck",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-subsites",
+        "gitlab": null,
+        "composer": "silverstripe\/subsites",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-tagfield",
+        "gitlab": null,
+        "composer": "silverstripe\/tagfield",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-taxonomy",
+        "gitlab": null,
+        "composer": "silverstripe\/taxonomy",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-translatable",
+        "gitlab": null,
+        "composer": "silverstripe\/translatable",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-userforms",
+        "gitlab": null,
+        "composer": "silverstripe\/userforms",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-australia\/silverstripe-versionedfiles",
+        "gitlab": null,
+        "composer": "silverstripe\/versionedfiles",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-versionfeed",
+        "gitlab": null,
+        "composer": "silverstripe\/versionfeed",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-widgets",
+        "gitlab": null,
+        "composer": "silverstripe\/widgets",
+        "type": "supported-module"
+    },
+    {
+        "github": "symfony\/yaml",
+        "gitlab": null,
+        "composer": "symfony\/yaml",
+        "type": "unknown"
+    },
+    {
+        "github": "tijsverkoyen\/akismet",
+        "gitlab": null,
+        "composer": "tijsverkoyen\/akismet",
+        "type": "unknown"
+    },
+    {
+        "github": "undefinedoffset\/sortablegridfield",
+        "gitlab": null,
+        "composer": "undefinedoffset\/sortablegridfield",
+        "type": "supported-dependency"
+    }
+]
