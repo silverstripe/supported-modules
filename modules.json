@@ -192,6 +192,12 @@
         "type": "supported-module"
     },
     {
+        "github": "silverstripe\/platform-project",
+        "gitlab": null,
+        "composer": "silverstripe\/platform-project",
+        "type": "supported-module"
+    },
+    {
         "github": "silverstripe-australia\/silverstripe-queuedjobs",
         "gitlab": null,
         "composer": "silverstripe\/queuedjobs",
