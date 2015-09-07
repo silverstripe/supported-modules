@@ -3,7 +3,7 @@
         "github": "assertchris\/hash-compat",
         "gitlab": null,
         "composer": "assertchris\/hash-compat",
-        "type": "supported-module"
+        "type": "supported-dependency"
     },
     {
         "github": "colymba\/GridFieldBulkEditingTools",
@@ -53,6 +53,12 @@
         "composer": "cwp\/cwp-recipe-blog",
         "type": "supported-module"
     },
+	{
+		"github": "guzzle\/guzzle",
+		"gitlab": null,
+		"composer": "guzzle\/guzzle",
+		"type": "supported-dependency"
+	},
     {
         "github": "hafriedlander\/phockito",
         "gitlab": null,
@@ -66,10 +72,16 @@
         "type": "supported-dependency"
     },
     {
+        "github": "silverstripe-australia\/silverstripe-gridfieldextensions",
+        "gitlab": null,
+        "composer": "silverstripe-australia\/gridfieldextensions",
+        "type": "supported-dependency"
+    },
+    {
         "github": "silverstripe-ux\/sass-twitter-bootstrap",
         "gitlab": null,
         "composer": "silverstripe-themes\/module_bootstrap",
-        "type": "unknown"
+        "type": "supported-dependency"
     },
     {
         "github": "silverstripe-australia\/advancedworkflow",
@@ -180,6 +192,12 @@
         "type": "supported-module"
     },
     {
+        "github": "silverstripe\/platform-project",
+        "gitlab": null,
+        "composer": "silverstripe\/platform-project",
+        "type": "supported-module"
+    },
+    {
         "github": "silverstripe-australia\/silverstripe-queuedjobs",
         "gitlab": null,
         "composer": "silverstripe\/queuedjobs",
@@ -213,7 +231,7 @@
         "github": "silverstripe-labs\/silverstripe-selectupload",
         "gitlab": null,
         "composer": "silverstripe\/selectupload",
-        "type": "supported-dependency"
+        "type": "supported-module"
     },
     {
         "github": "silverstripe\/silverstripe-spamprotection",
@@ -243,6 +261,12 @@
         "github": "silverstripe-labs\/silverstripe-taxonomy",
         "gitlab": null,
         "composer": "silverstripe\/taxonomy",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe-labs\/silverstripe-textextraction",
+        "gitlab": null,
+        "composer": "silverstripe\/textextraction",
         "type": "supported-module"
     },
     {
@@ -285,7 +309,7 @@
         "github": "tijsverkoyen\/akismet",
         "gitlab": null,
         "composer": "tijsverkoyen\/akismet",
-        "type": "unknown"
+        "type": "supported-dependency"
     },
     {
         "github": "undefinedoffset\/sortablegridfield",
