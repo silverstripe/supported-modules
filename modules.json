@@ -84,6 +84,12 @@
         "type": "supported-dependency"
     },
     {
+        "github": "silverstripe\/silverstripe-activedirectory",
+        "gitlab": null,
+        "composer": "silverstripe\/activedirectory",
+        "type": "supported-module"
+    },
+    {
         "github": "silverstripe-australia\/advancedworkflow",
         "gitlab": null,
         "composer": "silverstripe\/advancedworkflow",
@@ -102,13 +108,19 @@
         "type": "supported-module"
     },
     {
+        "github": "silverstripe\/silverstripe-contentreview",
+        "gitlab": null,
+        "composer": "silverstripe\/contentreview",
+        "type": "supported-module"
+    },
+    {
         "github": "silverstripe\/silverstripe-cms",
         "gitlab": null,
         "composer": "silverstripe\/cms",
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/comment-notifications",
+        "github": "silverstripe\/comment-notifications",
         "gitlab": null,
         "composer": "silverstripe\/comment-notifications",
         "type": "supported-module"
@@ -120,7 +132,7 @@
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-content-widget",
+        "github": "silverstripe\/silverstripe-content-widget",
         "gitlab": null,
         "composer": "silverstripe\/content-widget",
         "type": "supported-module"
@@ -132,13 +144,13 @@
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-environmentcheck",
+        "github": "silverstripe\/silverstripe-environmentcheck",
         "gitlab": null,
         "composer": "silverstripe\/environmentcheck",
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-externallinks",
+        "github": "silverstripe\/silverstripe-externallinks",
         "gitlab": null,
         "composer": "silverstripe\/externallinks",
         "type": "supported-module"
@@ -150,7 +162,7 @@
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-fulltextsearch",
+        "github": "silverstripe\/silverstripe-fulltextsearch",
         "gitlab": null,
         "composer": "silverstripe\/fulltextsearch",
         "type": "supported-module"
@@ -162,13 +174,13 @@
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-hybridsessions",
+        "github": "silverstripe\/silverstripe-hybridsessions",
         "gitlab": null,
         "composer": "silverstripe\/hybridsessions",
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-iframe",
+        "github": "silverstripe\/silverstripe-iframe",
         "gitlab": null,
         "composer": "silverstripe\/iframe",
         "type": "supported-module"
@@ -180,7 +192,7 @@
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-mimevalidator",
+        "github": "silverstripe\/silverstripe-mimevalidator",
         "gitlab": null,
         "composer": "silverstripe\/mimevalidator",
         "type": "supported-module"
@@ -204,9 +216,21 @@
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-registry",
+        "github": "silverstripe\/silverstripe-realme",
+        "gitlab": null,
+        "composer": "silverstripe\/realme",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-registry",
         "gitlab": null,
         "composer": "silverstripe\/registry",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-reports",
+        "gitlab": null,
+        "composer": "silverstripe\/reports",
         "type": "supported-module"
     },
     {
@@ -216,21 +240,39 @@
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-secureassets",
+        "github": "silverstripe\/silverstripe-secureassets",
         "gitlab": null,
         "composer": "silverstripe\/secureassets",
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-securityreport",
+        "github": "silverstripe\/silverstripe-securityreport",
         "gitlab": null,
         "composer": "silverstripe\/securityreport",
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-selectupload",
+        "github": "silverstripe\/silverstripe-selectupload",
         "gitlab": null,
         "composer": "silverstripe\/selectupload",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-sharedraftcontent",
+        "gitlab": null,
+        "composer": "silverstripe\/sharedraftcontent",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-siteconfig",
+        "gitlab": null,
+        "composer": "silverstripe\/siteconfig",
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-sitewidecontent-report",
+        "gitlab": null,
+        "composer": "silverstripe\/sitewidecontent-report",
         "type": "supported-module"
     },
     {
@@ -240,7 +282,7 @@
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-spellcheck",
+        "github": "silverstripe\/silverstripe-spellcheck",
         "gitlab": null,
         "composer": "silverstripe\/spellcheck",
         "type": "supported-module"
@@ -252,19 +294,19 @@
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-tagfield",
+        "github": "silverstripe\/silverstripe-tagfield",
         "gitlab": null,
         "composer": "silverstripe\/tagfield",
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-taxonomy",
+        "github": "silverstripe\/silverstripe-taxonomy",
         "gitlab": null,
         "composer": "silverstripe\/taxonomy",
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-textextraction",
+        "github": "silverstripe\/silverstripe-textextraction",
         "gitlab": null,
         "composer": "silverstripe\/textextraction",
         "type": "supported-module"
@@ -288,7 +330,7 @@
         "type": "supported-module"
     },
     {
-        "github": "silverstripe-labs\/silverstripe-versionfeed",
+        "github": "silverstripe\/silverstripe-versionfeed",
         "gitlab": null,
         "composer": "silverstripe\/versionfeed",
         "type": "supported-module"
