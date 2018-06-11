@@ -13,10 +13,8 @@ a {
 
 table {
     border-collapse: collapse;
-}
-
-th {
-    font-weight: normal;
+    width: 100%;
+    cellpadding: 1;
 }
 
 th, td {
