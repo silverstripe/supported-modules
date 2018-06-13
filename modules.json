@@ -504,22 +504,6 @@
         "type": "supported-module"
     },
     {
-        "github": "silverstripe\/silverstripe-moduleratings",
-        "gitlab": null,
-        "composer": "silverstripe\/moduleratings",
-        "scrutinizer": false,
-        "addons": true,
-        "type": "supported-dependency"
-    },
-    {
-        "github": "silverstripe\/silverstripe-moduleratings-plugin",
-        "gitlab": null,
-        "composer": "silverstripe\/moduleratings-plugin",
-        "scrutinizer": false,
-        "addons": true,
-        "type": "supported-dependency"
-    },
-    {
         "github": "silverstripe\/silverstripe-postgresql",
         "gitlab": null,
         "composer": "silverstripe\/postgresql",
