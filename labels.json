@@ -1,0 +1,41 @@
+{
+  "default_labels": {
+    "affects/v3": "d4c5f9",
+    "affects/v4": "5319e7",
+    "affects/v5": "0e8a16",
+    "change/major": "e99695",
+    "change/minor": "f9d0c4",
+    "change/patch": "fef2c0",
+    "effort/easy": "c2e0c6",
+    "effort/hard": "f9d0c4",
+    "effort/medium": "fef2c0",
+    "feedback-required/author": "DDDDDD",
+    "feedback-required/core-team": "DDDDDD",
+    "impact/critical": "e11d21",
+    "impact/high": "eb6420",
+    "impact/low": "fef2c0",
+    "impact/medium": "f7c6c7",
+    "rfc/accepted": "DDDDDD",
+    "rfc/draft": "DDDDDD",
+    "type/bug": "d93f0b",
+    "type/docs": "02d7e1",
+    "type/enhancement": "0e8a16",
+    "type/frontend": "c5def5",
+    "type/userhelp": "c5def5",
+    "type/UX": "006b75"
+  },
+  "rename_labels": {
+    "bug": "type/bug",
+    "critical": "impact/critical",
+    "enhancement": "type/enhancement"
+  },
+  "remove_labels": [
+    "good first issue",
+    "wontfix",
+    "question",
+    "invalid",
+    "help wanted",
+    "duplicate",
+    "in progress"
+  ]
+}
