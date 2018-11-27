@@ -376,6 +376,22 @@
         "type": "supported-module"
     },
     {
+        "github": "silverstripe\/silverstripe-elemental-bannerblock",
+        "gitlab": null,
+        "composer": "silverstripe\/elemental-bannerblock",
+        "scrutinizer": true,
+        "addons": true,
+        "type": "supported-module"
+    },
+    {
+        "github": "silverstripe\/silverstripe-elemental-fileblock",
+        "gitlab": null,
+        "composer": "silverstripe\/elemental-fileblock",
+        "scrutinizer": true,
+        "addons": true,
+        "type": "supported-module"
+    },
+    {
         "github": "silverstripe\/silverstripe-environmentcheck",
         "gitlab": null,
         "composer": "silverstripe\/environmentcheck",
