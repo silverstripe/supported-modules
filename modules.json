@@ -905,7 +905,7 @@
     "type": "supported-dependency"
   },
   {
-    "github": "tractorcow\/silverstripe-fluent",
+    "github": "tractorcow-farm\/silverstripe-fluent",
     "gitlab": null,
     "composer": "tractorcow\/silverstripe-fluent",
     "scrutinizer": true,
