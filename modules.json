@@ -368,14 +368,6 @@
     "type": "supported-module"
   },
   {
-    "github": "silverstripe\/silverstripe-elemental-blocks",
-    "gitlab": null,
-    "composer": "silverstripe\/elemental-blocks",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
     "github": "silverstripe\/silverstripe-elemental-bannerblock",
     "gitlab": null,
     "composer": "silverstripe\/elemental-bannerblock",
