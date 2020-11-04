@@ -280,6 +280,14 @@
     "type": "supported-module"
   },
   {
+    "github": "silverstripe\/silverstripe-ckan-registry",
+    "gitlab": null,
+    "composer": "silverstripe\/ckan-registry",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module"
+  },
+  {
     "github": "silverstripe\/silverstripe-cms",
     "gitlab": null,
     "composer": "silverstripe\/cms",

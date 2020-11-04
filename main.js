@@ -27,7 +27,7 @@ $.ajax({
         }
 
 				if (module.github) {
-						row += "<td class='progress first'><a href='https://travis-ci.org/" + module.github + "'><img src='https://api.travis-ci.org/" + module.github + ".svg' /></a></td>";
+						row += "<td class='progress first'><a href='https://travis-ci.com/github/" + module.github + "'><img src='https://api.travis-ci.com/" + module.github + ".svg' /></a></td>";
 						row += "<td class='progress'><a href='https://codecov.io/gh/" + module.github + "'><img title='' src='https://codecov.io/gh/" + module.github + "/branch/master/graph/badge.svg' alt=''/></a></td>";
 						if (module.scrutinizer) {
 								row += "<td class='progress last'><a href='https://scrutinizer-ci.com/g/" + module.github + "'><img src='https://scrutinizer-ci.com/g/" + module.github + "/badges/quality-score.png'/></a></td>";
