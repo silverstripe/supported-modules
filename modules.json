@@ -160,7 +160,7 @@
     "type": "supported-module"
   },
   {
-    "github": "dnadesign\/silverstripe-elemental",
+    "github": "silverstripe\/silverstripe-elemental",
     "gitlab": null,
     "composer": "dnadesign\/silverstripe-elemental",
     "scrutinizer": true,
