@@ -13,7 +13,8 @@ our ["Elvis" bug tracker](https://github.com/silverstripe/github-issue-search-cl
  * `scrutinizer`: Boolean. Does this repo have Scrutinizer enabled?
  * `addons`: Boolean. Does this module exist on addons.silverstripe.org?
  * `type`: String. `supported-module` or `supported-dependency`
- * `githubId` The [id](https://docs.github.com/en/rest/reference/repos#get-a-repository) in Github. Used as a unique identifier.
+ * `githubId` Number. The [id](https://docs.github.com/en/rest/reference/repos#get-a-repository) in Github. Used as a unique identifier.
+ * `isCore`. Boolean. Is this considered a direct dependency of `silverstripe/installer`, `silverstripe/recipe-cms` or `silverstripe/recipe-core`?
 
 ## Adding a repo
 
