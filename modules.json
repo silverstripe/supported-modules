@@ -1,932 +1,1047 @@
 [
   {
-    "github": "bringyourownideas\/silverstripe-maintenance",
+    "github": "bringyourownideas/silverstripe-maintenance",
     "gitlab": null,
-    "composer": "bringyourownideas\/silverstripe-maintenance",
+    "composer": "bringyourownideas/silverstripe-maintenance",
     "scrutinizer": true,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 42240917
   },
   {
-    "github": "bringyourownideas\/silverstripe-composer-update-checker",
+    "github": "bringyourownideas/silverstripe-composer-update-checker",
     "gitlab": null,
-    "composer": "bringyourownideas\/silverstripe-composer-update-checker",
+    "composer": "bringyourownideas/silverstripe-composer-update-checker",
     "scrutinizer": true,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 41240800
   },
   {
-    "github": "bringyourownideas\/silverstripe-composer-security-checker",
+    "github": "bringyourownideas/silverstripe-composer-security-checker",
     "gitlab": null,
-    "composer": "bringyourownideas\/silverstripe-composer-security-checker",
+    "composer": "bringyourownideas/silverstripe-composer-security-checker",
     "scrutinizer": true,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 40122132
   },
   {
-    "github": "colymba\/GridFieldBulkEditingTools",
+    "github": "colymba/GridFieldBulkEditingTools",
     "gitlab": null,
-    "composer": "colymba\/gridfield-bulk-editing-tools",
+    "composer": "colymba/gridfield-bulk-editing-tools",
     "scrutinizer": false,
     "addons": true,
-    "type": "supported-dependency"
+    "type": "supported-dependency",
+    "githubId": 5071848
   },
   {
-    "github": "composer\/installers",
+    "github": "composer/installers",
     "gitlab": null,
-    "composer": "composer\/installers",
-    "scrutinizer": false,
-    "addons": false,
-    "type": "supported-dependency"
-  },
-  {
-    "github": "silverstripe\/cwp-agencyextensions",
-    "gitlab": null,
-    "composer": "cwp\/agency-extensions",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/cwp",
-    "gitlab": null,
-    "composer": "cwp\/cwp",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/cwp-core",
-    "gitlab": null,
-    "composer": "cwp\/cwp-core",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/cwp-installer",
-    "gitlab": null,
-    "composer": "cwp\/cwp-installer",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/cwp-pdfexport",
-    "gitlab": null,
-    "composer": "cwp\/cwp-pdfexport",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/cwp-recipe-basic",
-    "gitlab": null,
-    "composer": "cwp\/cwp-recipe-basic",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/cwp-recipe-basic-dev",
-    "gitlab": null,
-    "composer": "cwp\/cwp-recipe-basic-dev",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/cwp-recipe-blog",
-    "gitlab": null,
-    "composer": "cwp\/cwp-recipe-blog",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/cwp-recipe-cms",
-    "gitlab": null,
-    "composer": "cwp\/cwp-recipe-cms",
+    "composer": "composer/installers",
     "scrutinizer": false,
     "addons": false,
-    "type": "supported-module"
+    "type": "supported-dependency",
+    "githubId": 4698175
   },
   {
-    "github": "silverstripe\/cwp-recipe-core",
+    "github": "silverstripe/cwp-agencyextensions",
     "gitlab": null,
-    "composer": "cwp\/cwp-recipe-core",
+    "composer": "cwp/agency-extensions",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 113399978
+  },
+  {
+    "github": "silverstripe/cwp",
+    "gitlab": null,
+    "composer": "cwp/cwp",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 113398740
+  },
+  {
+    "github": "silverstripe/cwp-core",
+    "gitlab": null,
+    "composer": "cwp/cwp-core",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 113399915
+  },
+  {
+    "github": "silverstripe/cwp-installer",
+    "gitlab": null,
+    "composer": "cwp/cwp-installer",
     "scrutinizer": false,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": null
   },
   {
-    "github": "silverstripe\/cwp-recipe-search",
+    "github": "silverstripe/cwp-pdfexport",
     "gitlab": null,
-    "composer": "cwp\/cwp-recipe-search",
-    "scrutinizer": false,
-    "addons": false,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/cwp-search",
-    "gitlab": null,
-    "composer": "cwp\/cwp-search",
+    "composer": "cwp/cwp-pdfexport",
     "scrutinizer": true,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 118521425
   },
   {
-    "github": "silverstripe\/cwp-starter-theme",
+    "github": "silverstripe/cwp-recipe-basic",
     "gitlab": null,
-    "composer": "cwp\/starter-theme",
+    "composer": "cwp/cwp-recipe-basic",
     "scrutinizer": false,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": null
   },
   {
-    "github": "silverstripe\/cwp-watea-theme",
+    "github": "silverstripe/cwp-recipe-basic-dev",
     "gitlab": null,
-    "composer": "cwp\/watea-theme",
+    "composer": "cwp/cwp-recipe-basic-dev",
     "scrutinizer": false,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": null
   },
   {
-    "github": "silverstripe\/cwp-theme-default",
+    "github": "silverstripe/cwp-recipe-blog",
     "gitlab": null,
-    "composer": "cwp-themes\/default",
+    "composer": "cwp/cwp-recipe-blog",
     "scrutinizer": false,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": null
   },
   {
-    "github": "silverstripe\/silverstripe-elemental",
+    "github": "silverstripe/cwp-recipe-cms",
     "gitlab": null,
-    "composer": "dnadesign\/silverstripe-elemental",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "dnadesign\/silverstripe-elemental-subsites",
-    "gitlab": null,
-    "composer": "dnadesign\/silverstripe-elemental-subsites",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-dependency"
-  },
-  {
-    "github": "dnadesign\/silverstripe-elemental-userforms",
-    "gitlab": null,
-    "composer": "dnadesign\/silverstripe-elemental-userforms",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-dependency"
-  },
-  {
-    "github": "hafriedlander\/phockito",
-    "gitlab": null,
-    "composer": "hafriedlander\/phockito",
-    "scrutinizer": false,
-    "addons": false,
-    "type": "supported-dependency"
-  },
-  {
-    "github": "hafriedlander\/silverstripe-phockito",
-    "gitlab": null,
-    "composer": "hafriedlander\/silverstripe-phockito",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-dependency"
-  },
-  {
-    "github": "lekoala\/silverstripe-debugbar",
-    "gitlab": null,
-    "composer": "lekoala\/silverstripe-debugbar",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-activedirectory",
-    "gitlab": null,
-    "composer": "silverstripe\/activedirectory",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-admin",
-    "gitlab": null,
-    "composer": "silverstripe\/admin",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-akismet",
-    "gitlab": null,
-    "composer": "silverstripe\/akismet",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-asset-admin",
-    "gitlab": null,
-    "composer": "silverstripe\/asset-admin",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-assets",
-    "gitlab": null,
-    "composer": "silverstripe\/assets",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-auditor",
-    "gitlab": null,
-    "composer": "silverstripe\/auditor",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-behat-extension",
-    "gitlab": null,
-    "composer": "silverstripe\/behat-extension",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-dependency"
-  },
-  {
-    "github": "silverstripe\/silverstripe-blog",
-    "gitlab": null,
-    "composer": "silverstripe\/blog",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-campaign-admin",
-    "gitlab": null,
-    "composer": "silverstripe\/campaign-admin",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-ckan-registry",
-    "gitlab": null,
-    "composer": "silverstripe\/ckan-registry",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-cms",
-    "gitlab": null,
-    "composer": "silverstripe\/cms",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/comment-notifications",
-    "gitlab": null,
-    "composer": "silverstripe\/comment-notifications",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-comments",
-    "gitlab": null,
-    "composer": "silverstripe\/comments",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-config",
-    "gitlab": null,
-    "composer": "silverstripe\/config",
-    "scrutinizer": true,
-    "addons": false,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-content-widget",
-    "gitlab": null,
-    "composer": "silverstripe\/content-widget",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-contentreview",
-    "gitlab": null,
-    "composer": "silverstripe\/contentreview",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-controllerpolicy",
-    "gitlab": null,
-    "composer": "silverstripe\/controllerpolicy",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-crontask",
-    "gitlab": null,
-    "composer": "silverstripe\/crontask",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-dms",
-    "gitlab": null,
-    "composer": "silverstripe\/dms",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-dms-cart",
-    "gitlab": null,
-    "composer": "silverstripe\/dms-cart",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-documentconverter",
-    "gitlab": null,
-    "composer": "silverstripe\/documentconverter",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-elemental-bannerblock",
-    "gitlab": null,
-    "composer": "silverstripe\/elemental-bannerblock",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-elemental-fileblock",
-    "gitlab": null,
-    "composer": "silverstripe\/elemental-fileblock",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-environmentcheck",
-    "gitlab": null,
-    "composer": "silverstripe\/environmentcheck",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-errorpage",
-    "gitlab": null,
-    "composer": "silverstripe\/errorpage",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/eslint-config",
-    "gitlab": null,
-    "composer": "silverstripe\/eslint-config",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-externallinks",
-    "gitlab": null,
-    "composer": "silverstripe\/externallinks",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-framework",
-    "gitlab": null,
-    "composer": "silverstripe\/framework",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-fulltextsearch",
-    "gitlab": null,
-    "composer": "silverstripe\/fulltextsearch",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-graphql",
-    "gitlab": null,
-    "composer": "silverstripe\/graphql",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-graphql-devtools",
-    "gitlab": null,
-    "composer": "silverstripe\/graphql-devtools",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-dependency"
-  },
-  {
-    "github": "silverstripe\/silverstripe-gridfieldqueuedexport",
-    "gitlab": null,
-    "composer": "silverstripe\/gridfieldqueuedexport",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-html5",
-    "gitlab": null,
-    "composer": "silverstripe\/html5",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-hybridsessions",
-    "gitlab": null,
-    "composer": "silverstripe\/hybridsessions",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-iframe",
-    "gitlab": null,
-    "composer": "silverstripe\/iframe",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-installer",
-    "gitlab": null,
-    "composer": "silverstripe\/installer",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-ldap",
-    "gitlab": null,
-    "composer": "silverstripe\/ldap",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-lumberjack",
-    "gitlab": null,
-    "composer": "silverstripe\/lumberjack",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-mimevalidator",
-    "gitlab": null,
-    "composer": "silverstripe\/mimevalidator",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-postgresql",
-    "gitlab": null,
-    "composer": "silverstripe\/postgresql",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-realme",
-    "gitlab": null,
-    "composer": "silverstripe\/realme",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-
-  {
-    "github": "silverstripe\/recipe-authoring-tools",
-    "gitlab": null,
-    "composer": "silverstripe\/recipe-authoring-tools",
+    "composer": "cwp/cwp-recipe-cms",
     "scrutinizer": false,
     "addons": false,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": null
   },
   {
-    "github": "silverstripe\/recipe-blog",
+    "github": "silverstripe/cwp-recipe-core",
     "gitlab": null,
-    "composer": "silverstripe\/recipe-blog",
+    "composer": "cwp/cwp-recipe-core",
     "scrutinizer": false,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": null
   },
   {
-    "github": "silverstripe\/recipe-cms",
+    "github": "silverstripe/cwp-recipe-search",
     "gitlab": null,
-    "composer": "silverstripe\/recipe-cms",
-    "scrutinizer": false,
-    "addons": false,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/recipe-collaboration",
-    "gitlab": null,
-    "composer": "silverstripe\/recipe-collaboration",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/recipe-content-blocks",
-    "gitlab": null,
-    "composer": "silverstripe\/recipe-content-blocks",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/recipe-core",
-    "gitlab": null,
-    "composer": "silverstripe\/recipe-core",
+    "composer": "cwp/cwp-recipe-search",
     "scrutinizer": false,
     "addons": false,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 120237510
   },
   {
-    "github": "silverstripe\/recipe-form-building",
+    "github": "silverstripe/cwp-search",
     "gitlab": null,
-    "composer": "silverstripe\/recipe-form-building",
+    "composer": "cwp/cwp-search",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": null
+  },
+  {
+    "github": "silverstripe/cwp-starter-theme",
+    "gitlab": null,
+    "composer": "cwp/starter-theme",
     "scrutinizer": false,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 109077240
   },
   {
-    "github": "silverstripe\/recipe-plugin",
+    "github": "silverstripe/cwp-watea-theme",
     "gitlab": null,
-    "composer": "silverstripe\/recipe-plugin",
-    "scrutinizer": false,
-    "addons": false,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/recipe-reporting-tools",
-    "gitlab": null,
-    "composer": "silverstripe\/recipe-reporting-tools",
-    "scrutinizer": false,
-    "addons": false,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/recipe-services",
-    "gitlab": null,
-    "composer": "silverstripe\/recipe-services",
-    "scrutinizer": false,
-    "addons": false,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-registry",
-    "gitlab": null,
-    "composer": "silverstripe\/registry",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-reports",
-    "gitlab": null,
-    "composer": "silverstripe\/reports",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-restfulserver",
-    "gitlab": null,
-    "composer": "silverstripe\/restfulserver",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-secureassets",
-    "gitlab": null,
-    "composer": "silverstripe\/secureassets",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-securityreport",
-    "gitlab": null,
-    "composer": "silverstripe\/securityreport",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-segment-field",
-    "gitlab": null,
-    "composer": "silverstripe\/segment-field",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-selectupload",
-    "gitlab": null,
-    "composer": "silverstripe\/selectupload",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-sharedraftcontent",
-    "gitlab": null,
-    "composer": "silverstripe\/sharedraftcontent",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-siteconfig",
-    "gitlab": null,
-    "composer": "silverstripe\/siteconfig",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-sitewidecontent-report",
-    "gitlab": null,
-    "composer": "silverstripe\/sitewidecontent-report",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-spamprotection",
-    "gitlab": null,
-    "composer": "silverstripe\/spamprotection",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-spellcheck",
-    "gitlab": null,
-    "composer": "silverstripe\/spellcheck",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-sqlite3",
-    "gitlab": null,
-    "composer": "silverstripe\/sqlite3",
+    "composer": "cwp/watea-theme",
     "scrutinizer": false,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 109077377
   },
   {
-    "github": "silverstripe\/sspak",
+    "github": "silverstripe/cwp-theme-default",
     "gitlab": null,
-    "composer": "silverstripe\/sspak",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-staticpublishqueue",
-    "gitlab": null,
-    "composer": "silverstripe\/staticpublishqueue",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-subsites",
-    "gitlab": null,
-    "composer": "silverstripe\/subsites",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-tagfield",
-    "gitlab": null,
-    "composer": "silverstripe\/tagfield",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-taxonomy",
-    "gitlab": null,
-    "composer": "silverstripe\/taxonomy",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-textextraction",
-    "gitlab": null,
-    "composer": "silverstripe\/textextraction",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module-in"
-  },
-  {
-    "github": "silverstripe\/silverstripe-translatable",
-    "gitlab": null,
-    "composer": "silverstripe\/translatable",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-upgrader",
-    "gitlab": null,
-    "composer": "silverstripe\/upgrader",
+    "composer": "cwp-themes/default",
     "scrutinizer": false,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 114298025
   },
   {
-    "github": "silverstripe\/silverstripe-userforms",
+    "github": "silverstripe/silverstripe-elemental",
     "gitlab": null,
-    "composer": "silverstripe\/userforms",
+    "composer": "dnadesign/silverstripe-elemental",
     "scrutinizer": true,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 23339883
   },
   {
-    "github": "silverstripe\/vendor-plugin",
+    "github": "dnadesign/silverstripe-elemental-subsites",
     "gitlab": null,
-    "composer": "silverstripe\/vendor-plugin",
-    "scrutinizer": true,
-    "addons": false,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-versioned",
-    "gitlab": null,
-    "composer": "silverstripe\/versioned",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/silverstripe-versioned-admin",
-    "gitlab": null,
-    "composer": "silverstripe\/versioned-admin",
+    "composer": "dnadesign/silverstripe-elemental-subsites",
     "scrutinizer": true,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-dependency",
+    "githubId": null
   },
   {
-    "github": "silverstripe\/silverstripe-versionfeed",
+    "github": "dnadesign/silverstripe-elemental-userforms",
     "gitlab": null,
-    "composer": "silverstripe\/versionfeed",
+    "composer": "dnadesign/silverstripe-elemental-userforms",
     "scrutinizer": true,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-dependency",
+    "githubId": 96047938
   },
   {
-    "github": "silverstripe\/silverstripe-widgets",
+    "github": "hafriedlander/phockito",
     "gitlab": null,
-    "composer": "silverstripe\/widgets",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe\/webpack-config",
-    "gitlab": null,
-    "composer": "silverstripe\/webpack-config",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "silverstripe-themes\/silverstripe-simple",
-    "gitlab": null,
-    "composer": "silverstripe-themes\/simple",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "symbiote\/silverstripe-advancedworkflow",
-    "gitlab": null,
-    "composer": "symbiote\/silverstripe-advancedworkflow",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "symbiote\/silverstripe-gridfieldextensions",
-    "gitlab": null,
-    "composer": "symbiote\/silverstripe-gridfieldextensions",
-    "scrutinizer": false,
-    "addons": true,
-    "type": "supported-dependency"
-  },
-  {
-    "github": "symbiote\/silverstripe-multivaluefield",
-    "gitlab": null,
-    "composer": "symbiote\/silverstripe-multivaluefield",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "symbiote\/silverstripe-queuedjobs",
-    "gitlab": null,
-    "composer": "symbiote\/silverstripe-queuedjobs",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "symbiote\/silverstripe-versionedfiles",
-    "gitlab": null,
-    "composer": "symbiote\/silverstripe-versionedfiles",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module"
-  },
-  {
-    "github": "tijsverkoyen\/akismet",
-    "gitlab": null,
-    "composer": "tijsverkoyen\/akismet",
+    "composer": "hafriedlander/phockito",
     "scrutinizer": false,
     "addons": false,
-    "type": "supported-dependency"
+    "type": "supported-dependency",
+    "githubId": 1903885
   },
   {
-    "github": "tractorcow\/classproxy",
+    "github": "hafriedlander/silverstripe-phockito",
     "gitlab": null,
-    "composer": "tractorcow\/classproxy",
+    "composer": "hafriedlander/silverstripe-phockito",
     "scrutinizer": false,
-    "addons": false,
-    "type": "supported-dependency"
+    "addons": true,
+    "type": "supported-dependency",
+    "githubId": 2292890
   },
   {
-    "github": "tractorcow-farm\/silverstripe-fluent",
+    "github": "lekoala/silverstripe-debugbar",
     "gitlab": null,
-    "composer": "tractorcow\/silverstripe-fluent",
+    "composer": "lekoala/silverstripe-debugbar",
     "scrutinizer": true,
     "addons": true,
-    "type": "supported-dependency"
+    "type": "supported-module",
+    "githubId": 60849433
   },
   {
-    "github": "tractorcow\/silverstripe-proxy-db",
+    "github": "silverstripe/silverstripe-activedirectory",
     "gitlab": null,
-    "composer": "tractorcow\/silverstripe-proxy-db",
-    "scrutinizer": false,
+    "composer": "silverstripe/activedirectory",
+    "scrutinizer": true,
     "addons": true,
-    "type": "supported-dependency"
+    "type": "supported-module",
+    "githubId": 32431978
   },
   {
-    "github": "undefinedoffset\/sortablegridfield",
+    "github": "silverstripe/silverstripe-admin",
     "gitlab": null,
-    "composer": "undefinedoffset\/sortablegridfield",
+    "composer": "silverstripe/admin",
     "scrutinizer": false,
     "addons": true,
-    "type": "supported-dependency"
+    "type": "supported-module",
+    "githubId": 84500508
+  },
+  {
+    "github": "silverstripe/silverstripe-akismet",
+    "gitlab": null,
+    "composer": "silverstripe/akismet",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": null
+  },
+  {
+    "github": "silverstripe/silverstripe-asset-admin",
+    "gitlab": null,
+    "composer": "silverstripe/asset-admin",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 42913926
+  },
+  {
+    "github": "silverstripe/silverstripe-assets",
+    "gitlab": null,
+    "composer": "silverstripe/assets",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 85148184
+  },
+  {
+    "github": "silverstripe/silverstripe-auditor",
+    "gitlab": null,
+    "composer": "silverstripe/auditor",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 47799024
+  },
+  {
+    "github": "silverstripe/silverstripe-behat-extension",
+    "gitlab": null,
+    "composer": "silverstripe/behat-extension",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-dependency",
+    "githubId": null
+  },
+  {
+    "github": "silverstripe/silverstripe-blog",
+    "gitlab": null,
+    "composer": "silverstripe/blog",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 1236910
+  },
+  {
+    "github": "silverstripe/silverstripe-campaign-admin",
+    "gitlab": null,
+    "composer": "silverstripe/campaign-admin",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 85750633
+  },
+  {
+    "github": "silverstripe/silverstripe-ckan-registry",
+    "gitlab": null,
+    "composer": "silverstripe/ckan-registry",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 159571764
+  },
+  {
+    "github": "silverstripe/silverstripe-cms",
+    "gitlab": null,
+    "composer": "silverstripe/cms",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 1319183
+  },
+  {
+    "github": "silverstripe/comment-notifications",
+    "gitlab": null,
+    "composer": "silverstripe/comment-notifications",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 32947509
+  },
+  {
+    "github": "silverstripe/silverstripe-comments",
+    "gitlab": null,
+    "composer": "silverstripe/comments",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 1157974
+  },
+  {
+    "github": "silverstripe/silverstripe-config",
+    "gitlab": null,
+    "composer": "silverstripe/config",
+    "scrutinizer": true,
+    "addons": false,
+    "type": "supported-module",
+    "githubId": 66067831
+  },
+  {
+    "github": "silverstripe/silverstripe-content-widget",
+    "gitlab": null,
+    "composer": "silverstripe/content-widget",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": null
+  },
+  {
+    "github": "silverstripe/silverstripe-contentreview",
+    "gitlab": null,
+    "composer": "silverstripe/contentreview",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 2370478
+  },
+  {
+    "github": "silverstripe/silverstripe-controllerpolicy",
+    "gitlab": null,
+    "composer": "silverstripe/controllerpolicy",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 19681209
+  },
+  {
+    "github": "silverstripe/silverstripe-crontask",
+    "gitlab": null,
+    "composer": "silverstripe/crontask",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 12394679
+  },
+  {
+    "github": "silverstripe/silverstripe-dms",
+    "gitlab": null,
+    "composer": "silverstripe/dms",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 6785883
+  },
+  {
+    "github": "silverstripe/silverstripe-dms-cart",
+    "gitlab": null,
+    "composer": "silverstripe/dms-cart",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 91522112
+  },
+  {
+    "github": "silverstripe/silverstripe-documentconverter",
+    "gitlab": null,
+    "composer": "silverstripe/documentconverter",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 113400338
+  },
+  {
+    "github": "silverstripe/silverstripe-elemental-bannerblock",
+    "gitlab": null,
+    "composer": "silverstripe/elemental-bannerblock",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 136992112
+  },
+  {
+    "github": "silverstripe/silverstripe-elemental-fileblock",
+    "gitlab": null,
+    "composer": "silverstripe/elemental-fileblock",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": null
+  },
+  {
+    "github": "silverstripe/silverstripe-environmentcheck",
+    "gitlab": null,
+    "composer": "silverstripe/environmentcheck",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 3143218
+  },
+  {
+    "github": "silverstripe/silverstripe-errorpage",
+    "gitlab": null,
+    "composer": "silverstripe/errorpage",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 94210313
+  },
+  {
+    "github": "silverstripe/eslint-config",
+    "gitlab": null,
+    "composer": "silverstripe/eslint-config",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 109643040
+  },
+  {
+    "github": "silverstripe/silverstripe-externallinks",
+    "gitlab": null,
+    "composer": "silverstripe/externallinks",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": null
+  },
+  {
+    "github": "silverstripe/silverstripe-framework",
+    "gitlab": null,
+    "composer": "silverstripe/framework",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 1318892
+  },
+  {
+    "github": "silverstripe/silverstripe-fulltextsearch",
+    "gitlab": null,
+    "composer": "silverstripe/fulltextsearch",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 1673985
+  },
+  {
+    "github": "silverstripe/silverstripe-graphql",
+    "gitlab": null,
+    "composer": "silverstripe/graphql",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 68341446
+  },
+  {
+    "github": "silverstripe/silverstripe-graphql-devtools",
+    "gitlab": null,
+    "composer": "silverstripe/graphql-devtools",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-dependency",
+    "githubId": 78792258
+  },
+  {
+    "github": "silverstripe/silverstripe-gridfieldqueuedexport",
+    "gitlab": null,
+    "composer": "silverstripe/gridfieldqueuedexport",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 59252430
+  },
+  {
+    "github": "silverstripe/silverstripe-html5",
+    "gitlab": null,
+    "composer": "silverstripe/html5",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 8889228
+  },
+  {
+    "github": "silverstripe/silverstripe-hybridsessions",
+    "gitlab": null,
+    "composer": "silverstripe/hybridsessions",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 22979135
+  },
+  {
+    "github": "silverstripe/silverstripe-iframe",
+    "gitlab": null,
+    "composer": "silverstripe/iframe",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 4515744
+  },
+  {
+    "github": "silverstripe/silverstripe-installer",
+    "gitlab": null,
+    "composer": "silverstripe/installer",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 1319402
+  },
+  {
+    "github": "silverstripe/silverstripe-ldap",
+    "gitlab": null,
+    "composer": "silverstripe/ldap",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": null
+  },
+  {
+    "github": "silverstripe/silverstripe-lumberjack",
+    "gitlab": null,
+    "composer": "silverstripe/lumberjack",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": null
+  },
+  {
+    "github": "silverstripe/silverstripe-mimevalidator",
+    "gitlab": null,
+    "composer": "silverstripe/mimevalidator",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 22493606
+  },
+  {
+    "github": "silverstripe/silverstripe-postgresql",
+    "gitlab": null,
+    "composer": "silverstripe/postgresql",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 1236928
+  },
+  {
+    "github": "silverstripe/silverstripe-realme",
+    "gitlab": null,
+    "composer": "silverstripe/realme",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 46946194
+  },
+  {
+    "github": "silverstripe/recipe-authoring-tools",
+    "gitlab": null,
+    "composer": "silverstripe/recipe-authoring-tools",
+    "scrutinizer": false,
+    "addons": false,
+    "type": "supported-module",
+    "githubId": 120226694
+  },
+  {
+    "github": "silverstripe/recipe-blog",
+    "gitlab": null,
+    "composer": "silverstripe/recipe-blog",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": null
+  },
+  {
+    "github": "silverstripe/recipe-cms",
+    "gitlab": null,
+    "composer": "silverstripe/recipe-cms",
+    "scrutinizer": false,
+    "addons": false,
+    "type": "supported-module",
+    "githubId": 96844605
+  },
+  {
+    "github": "silverstripe/recipe-collaboration",
+    "gitlab": null,
+    "composer": "silverstripe/recipe-collaboration",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 119923751
+  },
+  {
+    "github": "silverstripe/recipe-content-blocks",
+    "gitlab": null,
+    "composer": "silverstripe/recipe-content-blocks",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 120223778
+  },
+  {
+    "github": "silverstripe/recipe-core",
+    "gitlab": null,
+    "composer": "silverstripe/recipe-core",
+    "scrutinizer": false,
+    "addons": false,
+    "type": "supported-module",
+    "githubId": 96839278
+  },
+  {
+    "github": "silverstripe/recipe-form-building",
+    "gitlab": null,
+    "composer": "silverstripe/recipe-form-building",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 120237364
+  },
+  {
+    "github": "silverstripe/recipe-plugin",
+    "gitlab": null,
+    "composer": "silverstripe/recipe-plugin",
+    "scrutinizer": false,
+    "addons": false,
+    "type": "supported-module",
+    "githubId": 67970412
+  },
+  {
+    "github": "silverstripe/recipe-reporting-tools",
+    "gitlab": null,
+    "composer": "silverstripe/recipe-reporting-tools",
+    "scrutinizer": false,
+    "addons": false,
+    "type": "supported-module",
+    "githubId": 120228554
+  },
+  {
+    "github": "silverstripe/recipe-services",
+    "gitlab": null,
+    "composer": "silverstripe/recipe-services",
+    "scrutinizer": false,
+    "addons": false,
+    "type": "supported-module",
+    "githubId": null
+  },
+  {
+    "github": "silverstripe/silverstripe-registry",
+    "gitlab": null,
+    "composer": "silverstripe/registry",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 8086664
+  },
+  {
+    "github": "silverstripe/silverstripe-reports",
+    "gitlab": null,
+    "composer": "silverstripe/reports",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 7656757
+  },
+  {
+    "github": "silverstripe/silverstripe-restfulserver",
+    "gitlab": null,
+    "composer": "silverstripe/restfulserver",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 4222524
+  },
+  {
+    "github": "silverstripe/silverstripe-secureassets",
+    "gitlab": null,
+    "composer": "silverstripe/secureassets",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 15884157
+  },
+  {
+    "github": "silverstripe/silverstripe-securityreport",
+    "gitlab": null,
+    "composer": "silverstripe/securityreport",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 19595761
+  },
+  {
+    "github": "silverstripe/silverstripe-segment-field",
+    "gitlab": null,
+    "composer": "silverstripe/segment-field",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 40516528
+  },
+  {
+    "github": "silverstripe/silverstripe-selectupload",
+    "gitlab": null,
+    "composer": "silverstripe/selectupload",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 21804238
+  },
+  {
+    "github": "silverstripe/silverstripe-sharedraftcontent",
+    "gitlab": null,
+    "composer": "silverstripe/sharedraftcontent",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 35126267
+  },
+  {
+    "github": "silverstripe/silverstripe-siteconfig",
+    "gitlab": null,
+    "composer": "silverstripe/siteconfig",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 22776092
+  },
+  {
+    "github": "silverstripe/silverstripe-sitewidecontent-report",
+    "gitlab": null,
+    "composer": "silverstripe/sitewidecontent-report",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 43330250
+  },
+  {
+    "github": "silverstripe/silverstripe-spamprotection",
+    "gitlab": null,
+    "composer": "silverstripe/spamprotection",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 1236936
+  },
+  {
+    "github": "silverstripe/silverstripe-spellcheck",
+    "gitlab": null,
+    "composer": "silverstripe/spellcheck",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": null
+  },
+  {
+    "github": "silverstripe/silverstripe-sqlite3",
+    "gitlab": null,
+    "composer": "silverstripe/sqlite3",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": null
+  },
+  {
+    "github": "silverstripe/sspak",
+    "gitlab": null,
+    "composer": "silverstripe/sspak",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 9559572
+  },
+  {
+    "github": "silverstripe/silverstripe-staticpublishqueue",
+    "gitlab": null,
+    "composer": "silverstripe/staticpublishqueue",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 9162434
+  },
+  {
+    "github": "silverstripe/silverstripe-subsites",
+    "gitlab": null,
+    "composer": "silverstripe/subsites",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 1236940
+  },
+  {
+    "github": "silverstripe/silverstripe-tagfield",
+    "gitlab": null,
+    "composer": "silverstripe/tagfield",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 1181344
+  },
+  {
+    "github": "silverstripe/silverstripe-taxonomy",
+    "gitlab": null,
+    "composer": "silverstripe/taxonomy",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 8301510
+  },
+  {
+    "github": "silverstripe/silverstripe-textextraction",
+    "gitlab": null,
+    "composer": "silverstripe/textextraction",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module-in",
+    "githubId": 7482455
+  },
+  {
+    "github": "silverstripe/silverstripe-translatable",
+    "gitlab": null,
+    "composer": "silverstripe/translatable",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 1540453
+  },
+  {
+    "github": "silverstripe/silverstripe-upgrader",
+    "gitlab": null,
+    "composer": "silverstripe/upgrader",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 57424901
+  },
+  {
+    "github": "silverstripe/silverstripe-userforms",
+    "gitlab": null,
+    "composer": "silverstripe/userforms",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 1247754
+  },
+  {
+    "github": "silverstripe/vendor-plugin",
+    "gitlab": null,
+    "composer": "silverstripe/vendor-plugin",
+    "scrutinizer": true,
+    "addons": false,
+    "type": "supported-module",
+    "githubId": 104690866
+  },
+  {
+    "github": "silverstripe/silverstripe-versioned",
+    "gitlab": null,
+    "composer": "silverstripe/versioned",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 85634633
+  },
+  {
+    "github": "silverstripe/silverstripe-versioned-admin",
+    "gitlab": null,
+    "composer": "silverstripe/versioned-admin",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 124332817
+  },
+  {
+    "github": "silverstripe/silverstripe-versionfeed",
+    "gitlab": null,
+    "composer": "silverstripe/versionfeed",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 6821471
+  },
+  {
+    "github": "silverstripe/silverstripe-widgets",
+    "gitlab": null,
+    "composer": "silverstripe/widgets",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 4068399
+  },
+  {
+    "github": "silverstripe/webpack-config",
+    "gitlab": null,
+    "composer": "silverstripe/webpack-config",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 92692253
+  },
+  {
+    "github": "silverstripe-themes/silverstripe-simple",
+    "gitlab": null,
+    "composer": "silverstripe-themes/simple",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": null
+  },
+  {
+    "github": "symbiote/silverstripe-advancedworkflow",
+    "gitlab": null,
+    "composer": "symbiote/silverstripe-advancedworkflow",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 981174
+  },
+  {
+    "github": "symbiote/silverstripe-gridfieldextensions",
+    "gitlab": null,
+    "composer": "symbiote/silverstripe-gridfieldextensions",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-dependency",
+    "githubId": 7373726
+  },
+  {
+    "github": "symbiote/silverstripe-multivaluefield",
+    "gitlab": null,
+    "composer": "symbiote/silverstripe-multivaluefield",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 624044
+  },
+  {
+    "github": "symbiote/silverstripe-queuedjobs",
+    "gitlab": null,
+    "composer": "symbiote/silverstripe-queuedjobs",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 660816
+  },
+  {
+    "github": "symbiote/silverstripe-versionedfiles",
+    "gitlab": null,
+    "composer": "symbiote/silverstripe-versionedfiles",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 391319
+  },
+  {
+    "github": "tijsverkoyen/akismet",
+    "gitlab": null,
+    "composer": "tijsverkoyen/akismet",
+    "scrutinizer": false,
+    "addons": false,
+    "type": "supported-dependency",
+    "githubId": null
+  },
+  {
+    "github": "tractorcow/classproxy",
+    "gitlab": null,
+    "composer": "tractorcow/classproxy",
+    "scrutinizer": false,
+    "addons": false,
+    "type": "supported-dependency",
+    "githubId": 121438031
+  },
+  {
+    "github": "tractorcow-farm/silverstripe-fluent",
+    "gitlab": null,
+    "composer": "tractorcow/silverstripe-fluent",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-dependency",
+    "githubId": 10893201
+  },
+  {
+    "github": "tractorcow/silverstripe-proxy-db",
+    "gitlab": null,
+    "composer": "tractorcow/silverstripe-proxy-db",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-dependency",
+    "githubId": null
+  },
+  {
+    "github": "undefinedoffset/sortablegridfield",
+    "gitlab": null,
+    "composer": "undefinedoffset/sortablegridfield",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-dependency",
+    "githubId": null
   },
   {
     "github": "silverstripe/silverstripe-mfa",
@@ -934,7 +1049,8 @@
     "composer": "silverstripe/mfa",
     "scrutinizer": true,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 172815373
   },
   {
     "github": "silverstripe/silverstripe-totp-authenticator",
@@ -942,7 +1058,8 @@
     "composer": "silverstripe/totp-authenticator",
     "scrutinizer": true,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 179381590
   },
   {
     "github": "silverstripe/silverstripe-webauthn-authenticator",
@@ -950,7 +1067,8 @@
     "composer": "silverstripe/webauthn-authenticator",
     "scrutinizer": true,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 176832496
   },
   {
     "github": "silverstripe/silverstripe-login-forms",
@@ -958,7 +1076,8 @@
     "composer": "silverstripe/login-forms",
     "scrutinizer": true,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 155142697
   },
   {
     "github": "silverstripe/silverstripe-security-extensions",
@@ -966,6 +1085,7 @@
     "composer": "silverstripe/security-extensions",
     "scrutinizer": true,
     "addons": true,
-    "type": "supported-module"
+    "type": "supported-module",
+    "githubId": 190106499
   }
 ]
