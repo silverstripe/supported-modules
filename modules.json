@@ -86,7 +86,7 @@
     "scrutinizer": false,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 114296537,
     "isCore": false
   },
   {
@@ -106,7 +106,7 @@
     "scrutinizer": false,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 114297027,
     "isCore": false
   },
   {
@@ -116,7 +116,7 @@
     "scrutinizer": false,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 114297189,
     "isCore": false
   },
   {
@@ -126,7 +126,7 @@
     "scrutinizer": false,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 114297098,
     "isCore": false
   },
   {
@@ -136,7 +136,7 @@
     "scrutinizer": false,
     "addons": false,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 119917369,
     "isCore": false
   },
   {
@@ -146,7 +146,7 @@
     "scrutinizer": false,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 118549688,
     "isCore": false
   },
   {
@@ -166,7 +166,7 @@
     "scrutinizer": true,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 116906416,
     "isCore": false
   },
   {
@@ -216,7 +216,7 @@
     "scrutinizer": true,
     "addons": true,
     "type": "supported-dependency",
-    "githubId": null,
+    "githubId": 96047352,
     "isCore": false
   },
   {
@@ -286,7 +286,7 @@
     "scrutinizer": true,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 32699251,
     "isCore": false
   },
   {
@@ -326,7 +326,7 @@
     "scrutinizer": true,
     "addons": true,
     "type": "supported-dependency",
-    "githubId": null,
+    "githubId": 6235025,
     "isCore": false
   },
   {
@@ -406,7 +406,7 @@
     "scrutinizer": true,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 34094648,
     "isCore": false
   },
   {
@@ -486,7 +486,7 @@
     "scrutinizer": true,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 136990365,
     "isCore": false
   },
   {
@@ -526,7 +526,7 @@
     "scrutinizer": true,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 22708348,
     "isCore": false
   },
   {
@@ -626,7 +626,7 @@
     "scrutinizer": true,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 104963133,
     "isCore": false
   },
   {
@@ -636,7 +636,7 @@
     "scrutinizer": true,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 30332001,
     "isCore": false
   },
   {
@@ -686,7 +686,7 @@
     "scrutinizer": false,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 119918895,
     "isCore": false
   },
   {
@@ -766,7 +766,7 @@
     "scrutinizer": false,
     "addons": false,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 120680662,
     "isCore": false
   },
   {
@@ -886,7 +886,7 @@
     "scrutinizer": true,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 22397728,
     "isCore": false
   },
   {
@@ -896,7 +896,7 @@
     "scrutinizer": false,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 1481572,
     "isCore": false
   },
   {
@@ -1056,7 +1056,7 @@
     "scrutinizer": false,
     "addons": true,
     "type": "supported-module",
-    "githubId": null,
+    "githubId": 3712566,
     "isCore": true
   },
   {
@@ -1116,7 +1116,7 @@
     "scrutinizer": false,
     "addons": false,
     "type": "supported-dependency",
-    "githubId": null,
+    "githubId": 1023551,
     "isCore": false
   },
   {
@@ -1146,7 +1146,7 @@
     "scrutinizer": false,
     "addons": true,
     "type": "supported-dependency",
-    "githubId": null,
+    "githubId": 121699865,
     "isCore": false
   },
   {
@@ -1156,7 +1156,7 @@
     "scrutinizer": false,
     "addons": true,
     "type": "supported-dependency",
-    "githubId": null,
+    "githubId": 4274219,
     "isCore": false
   },
   {
