@@ -670,6 +670,16 @@
     "isCore": false
   },
   {
+    "github": "silverstripe/silverstripe-session-manager",
+    "gitlab": null,
+    "composer": "silverstripe/session-manager",
+    "scrutinizer": false,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 128231892,
+    "isCore": true
+  },
+  {
     "github": "silverstripe/recipe-authoring-tools",
     "gitlab": null,
     "composer": "silverstripe/recipe-authoring-tools",
