@@ -420,16 +420,6 @@
     "isCore": false
   },
   {
-    "github": "silverstripe/silverstripe-controllerpolicy",
-    "gitlab": null,
-    "composer": "silverstripe/controllerpolicy",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module",
-    "githubId": 19681209,
-    "isCore": false
-  },
-  {
     "github": "silverstripe/silverstripe-crontask",
     "gitlab": null,
     "composer": "silverstripe/crontask",
