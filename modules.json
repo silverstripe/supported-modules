@@ -130,6 +130,16 @@
     "isCore": false
   },
   {
+    "github": "silverstripe/developer-docs",
+    "gitlab": null,
+    "composer": "silverstripe/developer-docs",
+    "scrutinizer": false,
+    "addons": false,
+    "type": "supported-module",
+    "githubId": 510980223,
+    "isCore": true
+  },
+  {
     "github": "silverstripe/silverstripe-elemental",
     "gitlab": null,
     "composer": "dnadesign/silverstripe-elemental",
