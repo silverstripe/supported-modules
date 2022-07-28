@@ -27,7 +27,7 @@ $.ajax({
         }
 
 				if (module.github) {
-						row += "<td class='progress first'><a href='https://travis-ci.com/github/" + module.github + "'><img src='https://api.travis-ci.com/" + module.github + ".svg' /></a></td>";
+						row += "<td class='progress first'><a href='https://github.com/" + module.github + "/actions/workflows/ci.yml'><img src='https://github.com/" + module.github + "/actions/workflows/ci.yml/badge.svg' /></a></td>";
 				} else if (module.gitlab) {
 						row += "<td colspan='3'>Module on Gitlab</td>";
 				} else {
