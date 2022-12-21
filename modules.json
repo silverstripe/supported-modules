@@ -200,16 +200,6 @@
     "isCore": false
   },
   {
-    "github": "silverstripe/silverstripe-activedirectory",
-    "gitlab": null,
-    "composer": "silverstripe/activedirectory",
-    "scrutinizer": true,
-    "addons": true,
-    "type": "supported-module",
-    "githubId": 32431978,
-    "isCore": false
-  },
-  {
     "github": "silverstripe/silverstripe-admin",
     "gitlab": null,
     "composer": "silverstripe/admin",
