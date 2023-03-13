@@ -5,6 +5,10 @@ Used to generate the
 and is the starting point for tooling such as
 our ["Elvis" bug tracker](https://github.com/silverstripe/github-issue-search-client).
 
+It's known to be used for the following modules:
+- silverstripe/tx-translator
+- bringyourownideas/silverstripe-maintainence
+
 ## Format
 
  * `github`: String. Github repository name (incl. org)
