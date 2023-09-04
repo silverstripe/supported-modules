@@ -1186,5 +1186,16 @@
     "githubId": 190106499,
     "isCore": false,
     "branches": ["4"]
+  },
+  {
+    "github": "silverstripe/silverstripe-dynamodb",
+    "gitlab": null,
+    "composer": "silverstripe/dynamodb",
+    "scrutinizer": true,
+    "addons": true,
+    "type": "supported-module",
+    "githubId": 38406904,
+    "isCore": false,
+    "branches": ["4"]
   }
 ]
