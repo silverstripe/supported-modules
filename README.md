@@ -13,6 +13,7 @@ It's known to be used in the following repositories:
 - [silverstripe/tx-translator](https://github.com/silverstripe/silverstripe-tx-translator/)
 - [bringyourownideas/silverstripe-maintainence](https://github.com/bringyourownideas/silverstripe-maintenance)
 - [silverstripe/github-issue-search-client](https://github.com/silverstripe/github-issue-search-client)
+- [silverstripe/module-standardiser](https://github.com/silverstripe/module-standardiser)
 
 ## Format
 
