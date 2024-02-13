@@ -363,6 +363,17 @@
     "branches": ["2"]
   },
   {
+    "github": "silverstripe/silverstripe-linkfield",
+    "gitlab": null,
+    "composer": "silverstripe/linkfield",
+    "scrutinizer": false,
+    "addons": false,
+    "type": "supported-module",
+    "githubId": 315191815,
+    "isCore": false,
+    "branches": ["4"]
+  },
+  {
     "github": "silverstripe/silverstripe-lumberjack",
     "gitlab": null,
     "composer": "silverstripe/lumberjack",
