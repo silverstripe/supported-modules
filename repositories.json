@@ -14,8 +14,8 @@
       }
     },
     {
-      "github": "bringyourownideas/silverstripe-packagist-update-checker",
-      "packagist": "bringyourownideas/silverstripe-packagist-update-checker",
+      "github": "bringyourownideas/silverstripe-composer-update-checker",
+      "packagist": "bringyourownideas/silverstripe-composer-update-checker",
       "githubId": 41240800,
       "isCore": false,
       "lockstepped": false,
@@ -296,7 +296,7 @@
     },
     {
       "github": "silverstripe/silverstripe-ckan-registry",
-      "composer": "silverstripe/ckan-registry",
+      "packagist": "silverstripe/ckan-registry",
       "githubId": 159571764,
       "isCore": false,
       "lockstepped": false,
@@ -372,6 +372,7 @@
       "lockstepped": false,
       "type": "module",
       "majorVersionMapping": {
+        "4": ["4"],
         "5": ["5"],
         "6": ["6"]
       }
@@ -696,7 +697,7 @@
       "githubId": 411910754,
       "isCore": false,
       "lockstepped": false,
-      "type": "module",
+      "type": "recipe",
       "majorVersionMapping": {
         "4": ["2"]
       }
@@ -808,7 +809,7 @@
     {
       "github": "silverstripe/recipe-solr-search",
       "packagist": "silverstripe/recipe-solr-search",
-      "githubId": 411910754,
+      "githubId": 411886231,
       "isCore": false,
       "lockstepped": true,
       "type": "recipe",
@@ -1121,7 +1122,7 @@
       }
     },
     {
-      "github": "silverstripe-themes/silverstripe-simple",
+      "github": "silverstripe/silverstripe-simple",
       "packagist": "silverstripe-themes/simple",
       "githubId": 3712566,
       "isCore": true,
@@ -1431,8 +1432,7 @@
       "githubId": 702760633,
       "majorVersionMapping": {
         "*": []
-      },
-      "private": true
+      }
     },
     {
       "github": "silverstripe/github-issue-search-client",
@@ -1478,6 +1478,14 @@
       "github": "silverstripe/documentation-lint",
       "packagist": "silverstripe/documentation-lint",
       "githubId": 780708127,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/supported-modules",
+      "packagist": "silverstripe/supported-modules",
+      "githubId": 67956860,
       "majorVersionMapping": {
         "*": []
       }

@@ -3,24 +3,16 @@
 Metadata and some supporting PHP logic for determining which branches of various GitHub repositories relate to which versions of Silverstripe CMS.
 
 > [!IMPORTANT]
-> Only the main branch of this repository is maintained.
+> Only the `main` branch of this repository is maintained.
 
-You can fetch the JSON by simply fetching the raw copy of `repositories.json` file, e.g. <https://raw.githubusercontent.com/silverstripe/supported-modules/main/repositories.json>
-
-It's known to be used in the following repositories:
-
-- [silverstripe/cow](https://github.com/silverstripe/cow)
-- [silverstripe/tx-translator](https://github.com/silverstripe/silverstripe-tx-translator/)
-- [bringyourownideas/silverstripe-maintainence](https://github.com/bringyourownideas/silverstripe-maintenance)
-- [silverstripe/github-issue-search-client](https://github.com/silverstripe/github-issue-search-client)
-- [silverstripe/module-standardiser](https://github.com/silverstripe/module-standardiser)
+You can fetch the JSON by simply fetching the raw copy of `repositories.json` file, e.g. <https://raw.githubusercontent.com/silverstripe/supported-modules/main/repositories.json>, though you're encouraged to use composer to pull in the data instead where appropriate.
 
 ## Format
 
 There are several sections in the `repositories.json` file, denoting different categories of repositories:
 
 - `supportedModules`: Repositories representing supported modules. If cow cares about it, it should probably be in this category.
-- `workflow`: Repositories which hold GitHub actions and workflows. Note that this section omits the `packagist` key.
+- `workflow`: Repositories which hold GitHub actions and workflows.
 - `tooling`: Repositories used to help streamline Silverstripe CMS maintenance
 - `misc`: All repositories we need to track which don't fit in one of the above categories.
 
