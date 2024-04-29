@@ -1,0 +1,1568 @@
+{
+  "supportedModules": [
+    {
+      "github": "bringyourownideas/silverstripe-maintenance",
+      "packagist": "bringyourownideas/silverstripe-maintenance",
+      "githubId": 42240917,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "bringyourownideas/silverstripe-packagist-update-checker",
+      "packagist": "bringyourownideas/silverstripe-packagist-update-checker",
+      "githubId": 41240800,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2", "3"],
+        "5": ["4"],
+        "6": ["5"]
+      }
+    },
+    {
+      "github": "bringyourownideas/silverstripe-composer-security-checker",
+      "packagist": "bringyourownideas/silverstripe-composer-security-checker",
+      "githubId": 40122132,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "colymba/GridFieldBulkEditingTools",
+      "packagist": "colymba/gridfield-bulk-editing-tools",
+      "githubId": 5071848,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["3"],
+        "5": ["4"],
+        "6": ["5"]
+      }
+    },
+    {
+      "github": "silverstripe/cwp-agencyextensions",
+      "packagist": "cwp/agency-extensions",
+      "githubId": 113399978,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/cwp",
+      "packagist": "cwp/cwp",
+      "githubId": 113398740,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/cwp-core",
+      "packagist": "cwp/cwp-core",
+      "githubId": 113399915,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/cwp-pdfexport",
+      "packagist": "cwp/cwp-pdfexport",
+      "githubId": 118521425,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"]
+      }
+    },
+    {
+      "github": "silverstripe/cwp-search",
+      "packagist": "cwp/cwp-search",
+      "githubId": 116906416,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"]
+      }
+    },
+    {
+      "github": "silverstripe/cwp-starter-theme",
+      "packagist": "cwp/starter-theme",
+      "githubId": 109077240,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "theme",
+      "majorVersionMapping": {
+        "4": ["3"],
+        "5": ["4"],
+        "6": ["5"]
+      }
+    },
+    {
+      "github": "silverstripe/cwp-watea-theme",
+      "packagist": "cwp/watea-theme",
+      "githubId": 109077377,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "theme",
+      "majorVersionMapping": {
+        "4": ["3"],
+        "5": ["4"],
+        "6": ["5"]
+      }
+    },
+    {
+      "github": "silverstripe/developer-docs",
+      "packagist": "silverstripe/developer-docs",
+      "githubId": 510980223,
+      "isCore": true,
+      "lockstepped": false,
+      "type": "other",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-elemental",
+      "packagist": "dnadesign/silverstripe-elemental",
+      "githubId": 23339883,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "dnadesign/silverstripe-elemental-subsites",
+      "packagist": "dnadesign/silverstripe-elemental-subsites",
+      "githubId": 96047352,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["3"]
+      }
+    },
+    {
+      "github": "dnadesign/silverstripe-elemental-userforms",
+      "packagist": "dnadesign/silverstripe-elemental-userforms",
+      "githubId": 96047938,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["3"],
+        "5": ["4"],
+        "6": ["5"]
+      }
+    },
+    {
+      "github": "hafriedlander/silverstripe-phockito",
+      "packagist": "hafriedlander/silverstripe-phockito",
+      "githubId": 2292890,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["master"]
+      }
+    },
+    {
+      "github": "lekoala/silverstripe-debugbar",
+      "packagist": "lekoala/silverstripe-debugbar",
+      "githubId": 60849433,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-admin",
+      "packagist": "silverstripe/admin",
+      "githubId": 84500508,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-akismet",
+      "packagist": "silverstripe/akismet",
+      "githubId": 32699251,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-asset-admin",
+      "packagist": "silverstripe/asset-admin",
+      "githubId": 42913926,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-assets",
+      "packagist": "silverstripe/assets",
+      "githubId": 85148184,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-auditor",
+      "packagist": "silverstripe/auditor",
+      "githubId": 47799024,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-blog",
+      "packagist": "silverstripe/blog",
+      "githubId": 1236910,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["3"],
+        "5": ["4"],
+        "6": ["5"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-campaign-admin",
+      "packagist": "silverstripe/campaign-admin",
+      "githubId": 85750633,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-ckan-registry",
+      "composer": "silverstripe/ckan-registry",
+      "githubId": 159571764,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-cms",
+      "packagist": "silverstripe/cms",
+      "githubId": 1319183,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/comment-notifications",
+      "packagist": "silverstripe/comment-notifications",
+      "githubId": 32947509,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-comments",
+      "packagist": "silverstripe/comments",
+      "githubId": 1157974,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-config",
+      "packagist": "silverstripe/config",
+      "githubId": 66067831,
+      "isCore": true,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-content-widget",
+      "packagist": "silverstripe/content-widget",
+      "githubId": 34094648,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-contentreview",
+      "packagist": "silverstripe/contentreview",
+      "githubId": 2370478,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-crontask",
+      "packagist": "silverstripe/crontask",
+      "githubId": 12394679,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-documentconverter",
+      "packagist": "silverstripe/documentconverter",
+      "githubId": 113400338,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-elemental-bannerblock",
+      "packagist": "silverstripe/elemental-bannerblock",
+      "githubId": 136992112,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-elemental-fileblock",
+      "packagist": "silverstripe/elemental-fileblock",
+      "githubId": 136990365,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-environmentcheck",
+      "packagist": "silverstripe/environmentcheck",
+      "githubId": 3143218,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-errorpage",
+      "packagist": "silverstripe/errorpage",
+      "githubId": 94210313,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-externallinks",
+      "packagist": "silverstripe/externallinks",
+      "githubId": 22708348,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-framework",
+      "packagist": "silverstripe/framework",
+      "githubId": 1318892,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-fulltextsearch",
+      "packagist": "silverstripe/fulltextsearch",
+      "githubId": 1673985,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-graphql",
+      "packagist": "silverstripe/graphql",
+      "githubId": 68341446,
+      "isCore": true,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["3", "4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-graphql-devtools",
+      "packagist": "silverstripe/graphql-devtools",
+      "githubId": 78792258,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-gridfieldqueuedexport",
+      "packagist": "silverstripe/gridfieldqueuedexport",
+      "githubId": 59252430,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-html5",
+      "packagist": "silverstripe/html5",
+      "githubId": 8889228,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-hybridsessions",
+      "packagist": "silverstripe/hybridsessions",
+      "githubId": 22979135,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-iframe",
+      "packagist": "silverstripe/iframe",
+      "githubId": 4515744,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-installer",
+      "packagist": "silverstripe/installer",
+      "githubId": 1319402,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "recipe",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-ldap",
+      "packagist": "silverstripe/ldap",
+      "githubId": 104963133,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-linkfield",
+      "packagist": "silverstripe/linkfield",
+      "githubId": 315191815,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "5": ["4"],
+        "6": ["5"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-lumberjack",
+      "packagist": "silverstripe/lumberjack",
+      "githubId": 30332001,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-mimevalidator",
+      "packagist": "silverstripe/mimevalidator",
+      "githubId": 22493606,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-postgresql",
+      "packagist": "silverstripe/postgresql",
+      "githubId": 1236928,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-realme",
+      "packagist": "silverstripe/realme",
+      "githubId": 46946194,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-session-manager",
+      "packagist": "silverstripe/session-manager",
+      "githubId": 128231892,
+      "isCore": true,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/recipe-authoring-tools",
+      "packagist": "silverstripe/recipe-authoring-tools",
+      "githubId": 120226694,
+      "isCore": false,
+      "lockstepped": true,
+      "type": "recipe",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/recipe-blog",
+      "packagist": "silverstripe/recipe-blog",
+      "githubId": 119918895,
+      "isCore": false,
+      "lockstepped": true,
+      "type": "recipe",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/recipe-ccl",
+      "packagist": "silverstripe/recipe-ccl",
+      "githubId": 411910754,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/recipe-cms",
+      "packagist": "silverstripe/recipe-cms",
+      "githubId": 96844605,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "recipe",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/recipe-collaboration",
+      "packagist": "silverstripe/recipe-collaboration",
+      "githubId": 119923751,
+      "isCore": false,
+      "lockstepped": true,
+      "type": "recipe",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/recipe-content-blocks",
+      "packagist": "silverstripe/recipe-content-blocks",
+      "githubId": 120223778,
+      "isCore": false,
+      "lockstepped": true,
+      "type": "recipe",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/recipe-core",
+      "packagist": "silverstripe/recipe-core",
+      "githubId": 96839278,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "recipe",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/recipe-form-building",
+      "packagist": "silverstripe/recipe-form-building",
+      "githubId": 120237364,
+      "isCore": false,
+      "lockstepped": true,
+      "type": "recipe",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/recipe-plugin",
+      "packagist": "silverstripe/recipe-plugin",
+      "githubId": 67970412,
+      "isCore": true,
+      "lockstepped": false,
+      "type": "other",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/recipe-reporting-tools",
+      "packagist": "silverstripe/recipe-reporting-tools",
+      "githubId": 120228554,
+      "isCore": false,
+      "lockstepped": true,
+      "type": "recipe",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/recipe-services",
+      "packagist": "silverstripe/recipe-services",
+      "githubId": 120680662,
+      "isCore": false,
+      "lockstepped": true,
+      "type": "recipe",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/recipe-solr-search",
+      "packagist": "silverstripe/recipe-solr-search",
+      "githubId": 411910754,
+      "isCore": false,
+      "lockstepped": true,
+      "type": "recipe",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/recipe-kitchen-sink",
+      "packagist": "silverstripe/recipe-kitchen-sink",
+      "githubId": 397823445,
+      "isCore": false,
+      "lockstepped": true,
+      "type": "recipe",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-registry",
+      "packagist": "silverstripe/registry",
+      "githubId": 8086664,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-reports",
+      "packagist": "silverstripe/reports",
+      "githubId": 7656757,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-restfulserver",
+      "packagist": "silverstripe/restfulserver",
+      "githubId": 4222524,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-securityreport",
+      "packagist": "silverstripe/securityreport",
+      "githubId": 19595761,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-segment-field",
+      "packagist": "silverstripe/segment-field",
+      "githubId": 40516528,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-sharedraftcontent",
+      "packagist": "silverstripe/sharedraftcontent",
+      "githubId": 35126267,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-siteconfig",
+      "packagist": "silverstripe/siteconfig",
+      "githubId": 22776092,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-sitewidecontent-report",
+      "packagist": "silverstripe/sitewidecontent-report",
+      "githubId": 43330250,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["3"],
+        "5": ["4"],
+        "6": ["5"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-spamprotection",
+      "packagist": "silverstripe/spamprotection",
+      "githubId": 1236936,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["3"],
+        "5": ["4"],
+        "6": ["5"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-spellcheck",
+      "packagist": "silverstripe/spellcheck",
+      "githubId": 22397728,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-sqlite3",
+      "packagist": "silverstripe/sqlite3",
+      "githubId": 1481572,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/sspak",
+      "packagist": "silverstripe/sspak",
+      "githubId": 9559572,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["master"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-staticpublishqueue",
+      "packagist": "silverstripe/staticpublishqueue",
+      "githubId": 9162434,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["5"],
+        "5": ["6"],
+        "6": ["7"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-subsites",
+      "packagist": "silverstripe/subsites",
+      "githubId": 1236940,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-tagfield",
+      "packagist": "silverstripe/tagfield",
+      "githubId": 1181344,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-taxonomy",
+      "packagist": "silverstripe/taxonomy",
+      "githubId": 8301510,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-textextraction",
+      "packagist": "silverstripe/textextraction",
+      "githubId": 7482455,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["3"],
+        "5": ["4"],
+        "6": ["5"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-userforms",
+      "packagist": "silverstripe/userforms",
+      "githubId": 1247754,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["5"],
+        "5": ["6"],
+        "6": ["7"]
+      }
+    },
+    {
+      "github": "silverstripe/vendor-plugin",
+      "packagist": "silverstripe/vendor-plugin",
+      "githubId": 104690866,
+      "isCore": true,
+      "lockstepped": false,
+      "type": "other",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-versioned",
+      "packagist": "silverstripe/versioned",
+      "githubId": 85634633,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-versioned-admin",
+      "packagist": "silverstripe/versioned-admin",
+      "githubId": 124332817,
+      "isCore": true,
+      "lockstepped": true,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-versionfeed",
+      "packagist": "silverstripe/versionfeed",
+      "githubId": 6821471,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-widgets",
+      "packagist": "silverstripe/widgets",
+      "githubId": 4068399,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe-themes/silverstripe-simple",
+      "packagist": "silverstripe-themes/simple",
+      "githubId": 3712566,
+      "isCore": true,
+      "lockstepped": false,
+      "type": "theme",
+      "majorVersionMapping": {
+        "4": ["3"],
+        "5": ["3"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "symbiote/silverstripe-advancedworkflow",
+      "packagist": "symbiote/silverstripe-advancedworkflow",
+      "githubId": 981174,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["5"],
+        "5": ["6"],
+        "6": ["7"]
+      }
+    },
+    {
+      "github": "symbiote/silverstripe-gridfieldextensions",
+      "packagist": "symbiote/silverstripe-gridfieldextensions",
+      "githubId": 7373726,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["3"],
+        "5": ["4"],
+        "6": ["5"]
+      }
+    },
+    {
+      "github": "symbiote/silverstripe-multivaluefield",
+      "packagist": "symbiote/silverstripe-multivaluefield",
+      "githubId": 624044,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["5"],
+        "5": ["6"],
+        "6": ["7"]
+      }
+    },
+    {
+      "github": "symbiote/silverstripe-queuedjobs",
+      "packagist": "symbiote/silverstripe-queuedjobs",
+      "githubId": 660816,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "tractorcow-farm/silverstripe-fluent",
+      "packagist": "tractorcow/silverstripe-fluent",
+      "githubId": 10893201,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["7"],
+        "6": ["8"]
+      }
+    },
+    {
+      "github": "undefinedoffset/sortablegridfield",
+      "packagist": "undefinedoffset/sortablegridfield",
+      "githubId": 4274219,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-mfa",
+      "packagist": "silverstripe/mfa",
+      "githubId": 172815373,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-totp-authenticator",
+      "packagist": "silverstripe/totp-authenticator",
+      "githubId": 179381590,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-webauthn-authenticator",
+      "packagist": "silverstripe/webauthn-authenticator",
+      "githubId": 176832496,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-login-forms",
+      "packagist": "silverstripe/login-forms",
+      "githubId": 155142697,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-security-extensions",
+      "packagist": "silverstripe/security-extensions",
+      "githubId": 190106499,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-dynamodb",
+      "packagist": "silverstripe/dynamodb",
+      "githubId": 38406904,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    }
+  ],
+  "workflow": [
+    {
+      "github": "silverstripe/gha-action-ci",
+      "githubId": 677151524,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/gha-auto-tag",
+      "githubId": 498115201,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/gha-ci",
+      "githubId": 498114968,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/gha-dispatch-ci",
+      "githubId": 614128526,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/gha-gauge-release",
+      "githubId": 677152725,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/gha-generate-matrix",
+      "githubId": 498115149,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/gha-issue",
+      "githubId": 652902116,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/gha-keepalive",
+      "githubId": 501033822,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/gha-merge-up",
+      "githubId": 665364839,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/gha-pull-request",
+      "githubId": 498115265,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/gha-run-tests",
+      "githubId": 498115111,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/gha-tag-release",
+      "githubId": 498115861,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/gha-trigger-ci",
+      "githubId": 679519830,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/gha-update-js",
+      "githubId": 498115920,
+      "majorVersionMapping": {
+        "*": []
+      }
+    }
+  ],
+  "tooling": [
+    {
+      "github": "silverstripe/recipe-testing",
+      "packagist": "silverstripe/recipe-testing",
+      "githubId": 125444094,
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-behat-extension",
+      "packagist": "silverstripe/behat-extension",
+      "githubId": 6235025,
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"],
+        "6": ["6"]
+      }
+    },
+    {
+      "github": "silverstripe/MinkFacebookWebDriver",
+      "packagist": "silverstripe/mink-facebook-web-driver",
+      "githubId": 102808263,
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/cow",
+      "packagist": null,
+      "githubId": 45497366,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/rhino",
+      "packagist": null,
+      "githubId": 702760633,
+      "majorVersionMapping": {
+        "*": []
+      },
+      "private": true
+    },
+    {
+      "github": "silverstripe/github-issue-search-client",
+      "packagist": null,
+      "githubId": 125294952,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/module-standardiser",
+      "packagist": null,
+      "githubId": 667697846,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-tx-translator",
+      "packagist": "silverstripe/tx-translator",
+      "githubId": 606951306,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/markdown-php-codesniffer",
+      "packagist": "silverstripe/markdown-php-codesniffer",
+      "githubId": 712195606,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-standards",
+      "packagist": "silverstripe/standards",
+      "githubId": 744766761,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/documentation-lint",
+      "packagist": "silverstripe/documentation-lint",
+      "githubId": 780708127,
+      "majorVersionMapping": {
+        "*": []
+      }
+    }
+  ],
+  "misc": [
+    {
+      "github": "silverstripe/eslint-config",
+      "packagist": null,
+      "githubId": 109643040,
+      "majorVersionMapping": {
+        "4": ["0"],
+        "5": ["1"],
+        "6": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/webpack-config",
+      "packagist": null,
+      "githubId": 92692253,
+      "majorVersionMapping": {
+        "4": ["1"],
+        "5": ["2"],
+        "6": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/.github",
+      "packagist": null,
+      "githubId": 599833538,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/api.silverstripe.org",
+      "packagist": null,
+      "githubId": 8220553,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/doc.silverstripe.org",
+      "packagist": null,
+      "githubId": 5683499,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-userhelp-content",
+      "packagist": null,
+      "githubId": 10051696,
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"]
+      }
+    },
+    {
+      "github": "silverstripe/demo.silverstripe.org",
+      "packagist": null,
+      "githubId": 10230329,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-frameworktest",
+      "packagist": null,
+      "githubId": 1296840,
+      "majorVersionMapping": {
+        "4": ["0.4"],
+        "5": ["1"],
+        "6": ["2"]
+      }
+    },
+    {
+      "github": "silverstripe/silverstripe-module",
+      "packagist": "silverstripe-module/skeleton",
+      "githubId": 45713708,
+      "majorVersionMapping": {
+        "4": ["4"],
+        "5": ["5"]
+      }
+    }
+  ]
+}
