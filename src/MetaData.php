@@ -148,9 +148,31 @@ final class MetaData
     }
 
     /**
-     * Get all metadata about all repositories we have information about
+     * Get metadata about all repositories we have information about,
+     * but only if they're supported for the given CMS major version.
+     *
+     * @param array $metadata Flat array of repository metadata, e.g. from getAllRepositoryMetaData(false)
+     * @param bool $keepWildcardMap If true, repositories with a "*" CMS major mapping are kept in the output
      */
-    public static function getAllRepositoryMetaData(): array
+    public static function removeReposNotInCmsMajor(array $metadata, string|int $cmsMajor, bool $keepWildcardMap = false): array
+    {
+        foreach ($metadata as $i => $repo) {
+            if (
+                !array_key_exists($cmsMajor, $repo['majorVersionMapping']) &&
+                (!$keepWildcardMap || !array_key_exists('*', $repo['majorVersionMapping']))
+            ) {
+                unset($metadata[$i]);
+            }
+        }
+        // Use array_values to reset array indices
+        return array_values($metadata);
+    }
+
+    /**
+     * Get all metadata about all repositories we have information about.
+     * @param bool $categorised If true, output is grouped by category.
+     */
+    public static function getAllRepositoryMetaData(bool $categorised = true): array
     {
         if (empty(self::$repositoryMetaData)) {
             $rawJson = file_get_contents(__DIR__ . '/../repositories.json');
@@ -160,6 +182,9 @@ final class MetaData
             }
             self::$repositoryMetaData = $decodedJson;
         }
-        return self::$repositoryMetaData;
+        if ($categorised) {
+            return self::$repositoryMetaData;
+        }
+        return array_merge(...array_values(self::$repositoryMetaData));
     }
 }

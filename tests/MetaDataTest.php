@@ -140,6 +140,66 @@ class MetaDataTest extends TestCase
         }
     }
 
+    public function provideRemoveReposNotInCmsMajor(): array
+    {
+        return [
+            'int major, no wildcard' => [
+                'cmsMajor' => 4,
+                'keepWildcardMap' => false,
+                'expectEmpty' => false,
+            ],
+            'string major, with wildcard' => [
+                'cmsMajor' => '5',
+                'keepWildcardMap' => true,
+                'expectEmpty' => false,
+            ],
+            'non-existant major, no wildcard' => [
+                'cmsMajor' => 'random',
+                'keepWildcardMap' => false,
+                'expectEmpty' => true,
+            ],
+            'non-existant major, with wildcard' => [
+                'cmsMajor' => 'random',
+                'keepWildcardMap' => true,
+                'expectEmpty' => false,
+            ],
+        ];
+    }
+
+    /**
+     * @dataProvider provideRemoveReposNotInCmsMajor
+     */
+    public function testRemoveReposNotInCmsMajor(int|string $cmsMajor, bool $keepWildcardMap, bool $expectEmpty): void
+    {
+        $flatData = MetaData::getAllRepositoryMetaData(false);
+        $result = MetaData::removeReposNotInCmsMajor($flatData, $cmsMajor, $keepWildcardMap);
+        if ($expectEmpty) {
+            $this->assertEmpty($result);
+        } else {
+            $this->assertNotEmpty($result);
+            $expected = [];
+            foreach ($flatData as $repo) {
+                if (array_key_exists($cmsMajor, $repo['majorVersionMapping'])) {
+                    $expected[] = $repo;
+                }
+                if ($keepWildcardMap && array_key_exists('*', $repo['majorVersionMapping'])) {
+                    $expected[] = $repo;
+                }
+            }
+            $this->assertSame($expected, $result);
+        }
+    }
+
+    public function testGetAllRepositoryMetaDataNoCategories(): void
+    {
+        $withCategories = MetaData::getAllRepositoryMetaData(true);
+        $expected = [];
+        foreach ($withCategories as $repos) {
+            $expected = array_merge($expected, $repos);
+        }
+        $this->assertSame($expected, MetaData::getAllRepositoryMetaData(false));
+    }
+
     public function testGetAllRepositoryMetaData(): void
     {
         // Validate data has correct categories
