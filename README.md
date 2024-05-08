@@ -5,7 +5,9 @@ Metadata and some supporting PHP logic for determining which branches of various
 > [!IMPORTANT]
 > Only the `main` branch of this repository is maintained.
 
-You can fetch the JSON by simply fetching the raw copy of `repositories.json` file, e.g. <https://raw.githubusercontent.com/silverstripe/supported-modules/main/repositories.json>, though you're encouraged to use composer to pull in the data instead where appropriate.
+You can fetch the JSON by simply fetching the raw copy of `repositories.json` file, e.g. <https://raw.githubusercontent.com/silverstripe/supported-modules/main/repositories.json>.
+
+If you've included this module as a compser dependency then you can use `SilverStripe\SupportedModules\MetaData::getAllRepositoryMetaData()` which will fetch the latest version of the JSON file from raw.githubusercontent.com.
 
 ## Format
 
