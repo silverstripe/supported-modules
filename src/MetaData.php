@@ -6,6 +6,8 @@ use RuntimeException;
 
 final class MetaData
 {
+    public static $isRunningUnitTests = false;
+
     public const CATEGORY_SUPPORTED = 'supportedModules';
 
     public const CATEGORY_WORKFLOW = 'workflow';
@@ -175,7 +177,17 @@ final class MetaData
     public static function getAllRepositoryMetaData(bool $categorised = true): array
     {
         if (empty(self::$repositoryMetaData)) {
-            $rawJson = file_get_contents(__DIR__ . '/../repositories.json');
+            if (self::$isRunningUnitTests) {
+                $rawJson = file_get_contents(__DIR__ . '/../repositories.json');
+            } else {
+                // Dynamicallly fetch the latest data from the supported-modules repository
+                // rather than reading it locally. This is done do that the data is always up-to-date
+                // and there's no need to run composer update and deploy the code to get the latest data.
+                $rawJson = file_get_contents('https://raw.githubusercontent.com/silverstripe/supported-modules/main/repositories.json');
+                if (!$rawJson) {
+                    throw new RuntimeException('Could not fetch repositories.json data');
+                }
+            }
             $decodedJson = json_decode($rawJson, true);
             if ($decodedJson === null) {
                 throw new RuntimeException('Could not parse repositories.json data: ' . json_last_error_msg());
