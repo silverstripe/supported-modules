@@ -65,7 +65,14 @@ final class MetaData
      * Only list them if they're causing errors in the existing logic.
      */
     public const SKIP_FOR_MERGE_UP = [
+        // cow only uses a master branch
         'silverstripe/cow',
+        // silverstripe/supported-modules only uses the main branch
+        'silverstripe/supported-modules',
+        // demo.silverstripe.org on uses the master branch
+        'silverstripe/demo.silverstripe.org',
+        // sortablegridfield has master branch as default branch which has dual support for CMS 4 and 5
+        'undefinedoffset/sortablegridfield',
     ];
 
     private static array $repositoryMetaData = [];
