@@ -287,5 +287,8 @@ class MetaDataTest extends TestCase
                 $this->assertNotEmpty($branches);
             }
         }
+        if (array_key_exists('*', $versionMap)) {
+            $this->assertCount(1, array_keys($versionMap), 'If a wildcard is defined, it must be the only key.');
+        }
     }
 }
