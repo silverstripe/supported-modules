@@ -60,6 +60,13 @@ final class BranchLogic
             return [];
         }
 
+        // Make sure the input is in a consistent order to ensure the following logic always gets the same results
+        // The order should be highest to lowest, so getMajorDiff correctly checks the highest branch first.
+        usort($repoBranches, 'version_compare');
+        $repoBranches = array_reverse($repoBranches);
+        usort($repoTags, 'version_compare');
+        $repoTags = array_reverse($repoTags);
+
         $onlyMajorBranches = array_filter($repoBranches, fn ($branch) => ctype_digit((string) $branch));
         $majorDiff = static::getMajorDiff($repoMetaData, $onlyMajorBranches, $defaultBranch, $composerJson);
 
