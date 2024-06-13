@@ -1296,6 +1296,13 @@
       }
     },
     {
+      "github": "silverstripe/gha-add-pr-to-project",
+      "githubId": 814378564,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
       "github": "silverstripe/gha-auto-tag",
       "githubId": 498115201,
       "majorVersionMapping": {
