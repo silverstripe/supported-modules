@@ -1324,6 +1324,13 @@
       }
     },
     {
+      "github": "silverstripe/gha-dispatch-release",
+      "githubId": 835449954,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
       "github": "silverstripe/gha-gauge-release",
       "githubId": 677152725,
       "majorVersionMapping": {
