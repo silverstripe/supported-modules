@@ -179,13 +179,16 @@ final class MetaData
     }
 
     /**
-     * Get all metadata about all repositories we have information about.
+     * Get all metadata about all repositories we have information about. This will make a newtwork
+     * request to fetch the latest data from the supported-modules repository.
      * @param bool $categorised If true, output is grouped by category.
+     * @param bool $fromRemote If true, fetch the data from the remote repository.
+     *                         If false, use the local file.
      */
-    public static function getAllRepositoryMetaData(bool $categorised = true): array
+    public static function getAllRepositoryMetaData(bool $categorised = true, $fromRemote = true): array
     {
         if (empty(self::$repositoryMetaData)) {
-            if (self::$isRunningUnitTests) {
+            if (self::$isRunningUnitTests || !$fromRemote) {
                 $rawJson = file_get_contents(__DIR__ . '/../repositories.json');
             } else {
                 // Dynamicallly fetch the latest data from the supported-modules repository
