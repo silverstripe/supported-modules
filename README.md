@@ -3,11 +3,11 @@
 Metadata and some supporting PHP logic for determining which branches of various GitHub repositories relate to which versions of Silverstripe CMS.
 
 > [!IMPORTANT]
-> Only the `main` branch of this repository is maintained.
+> Only the `main` branch of this repository is maintained. Stable tags must be manually created from the `main` branch. There is no auto tagging via a GitHub action. All branches other than `main` are legacy and should not be referenced going forward.
 
 You can fetch the JSON by simply fetching the raw copy of `repositories.json` file, e.g. <https://raw.githubusercontent.com/silverstripe/supported-modules/main/repositories.json>.
 
-If you've included this module as a compser dependency then you can use `SilverStripe\SupportedModules\MetaData::getAllRepositoryMetaData()` which will fetch the latest version of the JSON file from raw.githubusercontent.com.
+If you've included this module as a composer dependency then you can use `SilverStripe\SupportedModules\MetaData::getAllRepositoryMetaData()` which will fetch the latest version of the JSON file from raw.githubusercontent.com. There is a local copy of `repositories.json` in the module, though it is not guaranteed to be up to date, so only use this if fetching a fresh copy of this file is not viable.
 
 ## Format
 
