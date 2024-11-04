@@ -1032,6 +1032,17 @@
       }
     },
     {
+        "github": "silverstripe/silverstripe-template-engine",
+        "packagist": "silverstripe/template-engine",
+        "githubId": 881650631,
+        "isCore": true,
+        "lockstepped": false,
+        "type": "module",
+        "majorVersionMapping": {
+          "6": ["1"]
+        }
+    },
+    {
       "github": "silverstripe/silverstripe-textextraction",
       "packagist": "silverstripe/textextraction",
       "githubId": 7482455,
