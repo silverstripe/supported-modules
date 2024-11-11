@@ -38,7 +38,7 @@
       }
     },
     {
-      "github": "colymba/GridFieldBulkEditingTools",
+      "github": "silverstripe/silverstripe-gridfield-bulk-editing-tools",
       "packagist": "colymba/gridfield-bulk-editing-tools",
       "githubId": 5071848,
       "isCore": false,
