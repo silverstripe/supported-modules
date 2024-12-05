@@ -1553,6 +1553,16 @@
         "4": ["4"],
         "5": ["5"]
       }
+    },
+    {
+      "github": "silverstripe/doorman",
+      "packagist": "asyncphp/doorman",
+      "githubId": 38816427,
+      "majorVersionMapping": {
+        "4": ["3"],
+        "5": ["4"],
+        "6": ["5"]
+      }
     }
   ]
 }
