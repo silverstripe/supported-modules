@@ -1,6 +1,7 @@
 {
     "name": "silverstripe/supported-modules",
     "description": "Metadata about Silverstripe CMS supported modules and other repositories maintained by Silverstripe",
+    "license": "BSD-3-Clause",
     "autoload": {
         "psr-4": {
             "SilverStripe\\SupportedModules\\": "src/",
