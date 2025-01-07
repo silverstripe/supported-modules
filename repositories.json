@@ -377,7 +377,8 @@
       "lockstepped": false,
       "type": "module",
       "majorVersionMapping": {
-        "4": ["2"]
+        "4": ["2"],
+        "5": ["3"]
       }
     },
     {
