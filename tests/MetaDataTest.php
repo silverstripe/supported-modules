@@ -5,10 +5,11 @@ namespace SilverStripe\SupportedModules\Tests;
 use PHPUnit\Framework\TestCase;
 use RuntimeException;
 use SilverStripe\SupportedModules\MetaData;
+use PHPUnit\Framework\Attributes\DataProvider;
 
 class MetaDataTest extends TestCase
 {
-    public function provideGetMetaDataForRepository(): array
+    public static function provideGetMetaDataForRepository(): array
     {
         return [
             'missing repo' => [
@@ -49,9 +50,7 @@ class MetaDataTest extends TestCase
         ];
     }
 
-    /**
-     * @dataProvider provideGetMetaDataForRepository
-     */
+    #[DataProvider('provideGetMetaDataForRepository')]
     public function testGetMetaDataForRepository(string $repoName, bool $allowPartialMatch, bool $resultEmpty): void
     {
         $repoData = MetaData::getMetaDataForRepository($repoName, $allowPartialMatch);
@@ -65,7 +64,7 @@ class MetaDataTest extends TestCase
         MetaData::getMetaDataForRepository('');
     }
 
-    public function provideGetMetaDataByPackagistName(): array
+    public static function provideGetMetaDataByPackagistName(): array
     {
         return [
             'missing repo' => [
@@ -87,9 +86,7 @@ class MetaDataTest extends TestCase
         ];
     }
 
-    /**
-     * @dataProvider provideGetMetaDataByPackagistName
-     */
+    #[DataProvider('provideGetMetaDataByPackagistName')]
     public function testGetMetaDataByPackagistName(string $repoName, bool $resultEmpty): void
     {
         $repoData = MetaData::getMetaDataByPackagistName($repoName);
@@ -103,31 +100,29 @@ class MetaDataTest extends TestCase
         MetaData::getMetaDataByPackagistName('');
     }
 
-    public function provideGetMetaDataForLocksteppedRepos(): array
+    public static function provideGetMetaDataForLocksteppedRepos(): array
     {
         return [
             'module skeleton not lockstepped' => [
-                'packagistRef' => 'silverstripe-module/skeleton',
+                'repoName' => 'silverstripe-module/skeleton',
                 'isLockstepped' => false,
             ],
             'config not lockstepped' => [
-                'packagistRef' => 'silverstripe/config',
+                'repoName' => 'silverstripe/config',
                 'isLockstepped' => false,
             ],
             'framework lockstepped' => [
-                'packagistRef' => 'silverstripe/framework',
+                'repoName' => 'silverstripe/framework',
                 'isLockstepped' => true,
             ],
             'kitchen sink lockstepped' => [
-                'packagistRef' => 'silverstripe/recipe-kitchen-sink',
+                'repoName' => 'silverstripe/recipe-kitchen-sink',
                 'isLockstepped' => true,
             ],
         ];
     }
 
-    /**
-     * @dataProvider provideGetMetaDataForLocksteppedRepos
-     */
+    #[DataProvider('provideGetMetaDataForLocksteppedRepos')]
     public function testGetMetaDataForLocksteppedRepos(string $repoName, bool $isLockstepped): void
     {
         $lockstepped = MetaData::getMetaDataForLocksteppedRepos();
@@ -140,7 +135,7 @@ class MetaDataTest extends TestCase
         }
     }
 
-    public function provideRemoveReposNotInCmsMajor(): array
+    public static function provideRemoveReposNotInCmsMajor(): array
     {
         return [
             'int major, no wildcard' => [
@@ -166,9 +161,7 @@ class MetaDataTest extends TestCase
         ];
     }
 
-    /**
-     * @dataProvider provideRemoveReposNotInCmsMajor
-     */
+    #[DataProvider('provideRemoveReposNotInCmsMajor')]
     public function testRemoveReposNotInCmsMajor(int|string $cmsMajor, bool $keepWildcardMap, bool $expectEmpty): void
     {
         $flatData = MetaData::getAllRepositoryMetaData(false);

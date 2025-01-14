@@ -7,10 +7,11 @@ use RuntimeException;
 use SilverStripe\SupportedModules\BranchLogic;
 use SilverStripe\SupportedModules\MetaData;
 use stdClass;
+use PHPUnit\Framework\Attributes\DataProvider;
 
 class BranchLogicTest extends TestCase
 {
-    public function provideGetCmsMajor(): array
+    public static function provideGetCmsMajor(): array
     {
         return [
             'empty' => [
@@ -219,9 +220,7 @@ class BranchLogicTest extends TestCase
         ];
     }
 
-    /**
-     * @dataProvider provideGetCmsMajor
-     */
+    #[DataProvider('provideGetCmsMajor')]
     public function testGetCmsMajor(
         string $githubRepository,
         string $branch,
@@ -238,7 +237,7 @@ class BranchLogicTest extends TestCase
         $this->assertSame($expected, $cmsMajor);
     }
 
-    public function provideGetBranchesForMergeUp(): array
+    public static function provideGetBranchesForMergeUp(): array
     {
         return [
             'no branches' => [
@@ -778,9 +777,7 @@ class BranchLogicTest extends TestCase
         ];
     }
 
-    /**
-     * @dataProvider provideGetBranchesForMergeUp
-     */
+    #[DataProvider('provideGetBranchesForMergeUp')]
     public function testGetBranchesForMergeUp(
         string $githubRepository,
         string $defaultBranch,
@@ -805,7 +802,7 @@ class BranchLogicTest extends TestCase
         $this->assertSame($expected, $branches);
     }
 
-    public function provideGetBranchesForMergeUpExceptions(): array
+    public static function provideGetBranchesForMergeUpExceptions(): array
     {
         return [
             'Incorrect default branch for random module' => [
@@ -844,9 +841,7 @@ class BranchLogicTest extends TestCase
         ];
     }
 
-    /**
-     * @dataProvider provideGetBranchesForMergeUpExceptions
-     */
+    #[DataProvider('provideGetBranchesForMergeUpExceptions')]
     public function testGetBranchesForMergeUpExceptions(
         string $githubRepository,
         string $defaultBranch,
