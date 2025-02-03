@@ -1115,8 +1115,18 @@
       "type": "theme",
       "majorVersionMapping": {
         "4": ["3"],
-        "5": ["3"],
-        "6": ["3"]
+        "5": ["3"]
+      }
+    },
+    {
+      "github": "silverstripe/startup-theme",
+      "packagist": "silverstripe/startup-theme",
+      "githubId": 747487077,
+      "isCore": true,
+      "lockstepped": false,
+      "type": "theme",
+      "majorVersionMapping": {
+        "6": ["1"]
       }
     },
     {
