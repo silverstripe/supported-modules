@@ -527,6 +527,17 @@
       }
     },
     {
+      "github": "silverstripe/silverstripe-htmleditor-tinymce",
+      "packagist": "silverstripe/htmleditor-tinymce",
+      "githubId": 931307390,
+      "isCore": true,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "6": ["1"]
+      }
+    },
+    {
       "github": "silverstripe/silverstripe-hybridsessions",
       "packagist": "silverstripe/hybridsessions",
       "githubId": 22979135,
