@@ -1433,6 +1433,14 @@
       }
     },
     {
+        "github": "silverstripe/deprecation-checker",
+        "packagist": null,
+        "githubId": 958947655,
+        "majorVersionMapping": {
+          "*": []
+        }
+    },
+    {
       "github": "silverstripe/rhino",
       "packagist": null,
       "githubId": 702760633,
