@@ -665,6 +665,19 @@
       }
     },
     {
+      "github": "silverstripe/silverstripe-testsession",
+      "packagist": "silverstripe/testsession",
+      "githubId": 7240841,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["2"],
+        "5": ["3"],
+        "6": ["4"]
+      }
+    },
+    {
       "github": "silverstripe/recipe-authoring-tools",
       "packagist": "silverstripe/recipe-authoring-tools",
       "githubId": 120226694,
