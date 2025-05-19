@@ -1156,7 +1156,7 @@
       }
     },
     {
-      "github": "symbiote/silverstripe-advancedworkflow",
+      "github": "silverstripe/silverstripe-advancedworkflow",
       "packagist": "symbiote/silverstripe-advancedworkflow",
       "githubId": 981174,
       "isCore": false,
@@ -1169,7 +1169,7 @@
       }
     },
     {
-      "github": "symbiote/silverstripe-gridfieldextensions",
+      "github": "silverstripe/silverstripe-gridfieldextensions",
       "packagist": "symbiote/silverstripe-gridfieldextensions",
       "githubId": 7373726,
       "isCore": false,
@@ -1182,19 +1182,7 @@
       }
     },
     {
-      "github": "symbiote/silverstripe-multivaluefield",
-      "packagist": "symbiote/silverstripe-multivaluefield",
-      "githubId": 624044,
-      "isCore": false,
-      "lockstepped": false,
-      "type": "module",
-      "majorVersionMapping": {
-        "4": ["5"],
-        "5": ["6"]
-      }
-    },
-    {
-      "github": "symbiote/silverstripe-queuedjobs",
+      "github": "silverstripe/silverstripe-queuedjobs",
       "packagist": "symbiote/silverstripe-queuedjobs",
       "githubId": 660816,
       "isCore": false,
@@ -1204,6 +1192,18 @@
         "4": ["4"],
         "5": ["5"],
         "6": ["6"]
+      }
+    },
+    {
+      "github": "symbiote/silverstripe-multivaluefield",
+      "packagist": "symbiote/silverstripe-multivaluefield",
+      "githubId": 624044,
+      "isCore": false,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "4": ["5"],
+        "5": ["6"]
       }
     },
     {
