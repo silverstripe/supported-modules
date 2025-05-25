@@ -166,7 +166,7 @@
       }
     },
     {
-      "github": "dnadesign/silverstripe-elemental-userforms",
+      "github": "silverstripe/silverstripe-elemental-userforms",
       "packagist": "dnadesign/silverstripe-elemental-userforms",
       "githubId": 96047938,
       "isCore": false,
