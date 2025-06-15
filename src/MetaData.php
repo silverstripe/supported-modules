@@ -20,31 +20,27 @@ final class MetaData
      * Lowest major release line of Silverstripe CMS which is currently supported.
      * Must be updated after a major release line goes EOL.
      */
-    public const LOWEST_SUPPORTED_CMS_MAJOR = '4';
+    public const LOWEST_SUPPORTED_CMS_MAJOR = '5';
 
     /**
      * Highest major release line of Silverstripe CMS which is currently stable and supported.
      * Must be updated after a major release line gets its stable release.
      */
-    public const HIGHEST_STABLE_CMS_MAJOR = '5';
+    public const HIGHEST_STABLE_CMS_MAJOR = '6';
 
     /**
      * PHP versions which are suported for each release of Silverstripe CMS.
      * Must be updated after each Silverstripe CMS beta release.
      */
     public const PHP_VERSIONS_FOR_CMS_RELEASES = [
-        '4.9' => ['7.1', '7.2', '7.3', '7.4'],
-        '4.10' => ['7.3', '7.4', '8.0'],
-        '4.11' => ['7.4', '8.0', '8.1'],
-        '4' => ['7.4', '8.0', '8.1'],
         '5.0' => ['8.1', '8.2'],
         '5.1' => ['8.1', '8.2'],
         '5.2' => ['8.1', '8.2', '8.3'],
         '5.3' => ['8.1', '8.2', '8.3'],
         '5.4' => ['8.1', '8.2', '8.3'],
         '5' => ['8.1', '8.2', '8.3'],
-        '6' => ['8.3', '8.4'],
         '6.0' => ['8.3', '8.4'],
+        '6' => ['8.3', '8.4'],
     ];
 
     /**
@@ -56,12 +52,7 @@ final class MetaData
      *
      * Note these are actual major branches, not CMS major versions
      */
-    public const DO_NOT_MERGE_UP_FROM_MAJOR = [
-        'bringyourownideas/silverstripe-composer-update-checker' => '2',
-        'silverstripe/silverstripe-graphql' => '3',
-        'silverstripe/silverstripe-linkfield' => '3',
-        'tractorcow-farm/silverstripe-fluent' => '4',
-    ];
+    public const DO_NOT_MERGE_UP_FROM_MAJOR = [];
 
     /**
      * List of repositories that should be outright skipped for merge-up purposes.
@@ -74,8 +65,6 @@ final class MetaData
         'silverstripe/supported-modules',
         // demo.silverstripe.org on uses the master branch
         'silverstripe/demo.silverstripe.org',
-        // sortablegridfield has master branch as default branch which has dual support for CMS 4 and 5
-        'undefinedoffset/sortablegridfield',
     ];
 
     private static array $repositoryMetaData = [];
