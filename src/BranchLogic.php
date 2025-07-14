@@ -92,6 +92,15 @@ final class BranchLogic
             if ($cmsMajor < MetaData::LOWEST_SUPPORTED_CMS_MAJOR) {
                 continue;
             }
+            // filter out any unsupported branches
+            $metadata = MetaData::getMetaDataForRepository($githubRepository);
+            // metadata may be empty for unit tests e.g. lorem/ipsum repos
+            if (!empty($metadata)) {
+                $cmsMajors = array_keys($metadata['majorVersionMapping']);
+                if (!in_array($cmsMajor, $cmsMajors) && !in_array('*', $cmsMajors)) {
+                    continue;
+                }
+            }
             // suffix a temporary .999 minor version to major branches so that it's sorted correctly later
             if (preg_match('#^[0-9]+$#', $branch)) {
                 $branch .= '.999';

@@ -728,6 +728,35 @@ class BranchLogicTest extends TestCase
                     $this->getVersionWithOffset($highestMajor, 1),
                 ],
             ],
+            'Branch created to release unsupported version of new major' => [
+                'githubRepository' => 'silverstripe/silverstripe-subsites',
+                'defaultBranch' => '4',
+                'repoTags' => [
+                    '2.0.0',
+                    '2.1.0',
+                    '3.0.0',
+                    '3.1.0',
+                    '3.2.0',
+                    '3.3.0',
+                    '3.4.0',
+                    '4.0.0',
+                ],
+                'repoBranches' => [
+                    '2.0',
+                    '2.1',
+                    '3.0',
+                    '3.1',
+                    '3.2',
+                    '3.3',
+                    '3.4',
+                    '4.0',
+                    '4',
+                ],
+                'composerJson' => null,
+                'expected' => [
+                    '3.4',
+                ],
+            ],
         ];
     }
 
