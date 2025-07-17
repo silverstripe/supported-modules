@@ -1598,6 +1598,14 @@
       }
     },
     {
+      "github": "silverstripe/silverstripe-non-blocking-sessions",
+      "packagist": "silverstripe/non-blocking-sessions",
+      "githubId": 1021093050,
+      "majorVersionMapping": {
+        "5": ["1"]
+      }
+    },
+    {
       "github": "silverstripe/doorman",
       "packagist": "asyncphp/doorman",
       "githubId": 38816427,
