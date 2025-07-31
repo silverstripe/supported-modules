@@ -1459,6 +1459,14 @@
       }
     },
     {
+      "github": "silverstripe/roadmap",
+      "packagist": null,
+      "githubId": 1025319696,
+      "majorVersionMapping": {
+        "*": []
+      }
+    },
+    {
       "github": "silverstripe/github-issue-search-client",
       "packagist": null,
       "githubId": 125294952,
