@@ -132,7 +132,7 @@
       "github": "silverstripe/developer-docs",
       "packagist": "silverstripe/developer-docs",
       "githubId": 510980223,
-      "isCore": true,
+      "isCore": false,
       "lockstepped": false,
       "type": "other",
       "majorVersionMapping": {
@@ -278,8 +278,8 @@
       "github": "silverstripe/silverstripe-campaign-admin",
       "packagist": "silverstripe/campaign-admin",
       "githubId": 85750633,
-      "isCore": true,
-      "lockstepped": true,
+      "isCore": false,
+      "lockstepped": false,
       "type": "module",
       "majorVersionMapping": {
         "4": ["1"],
@@ -483,7 +483,7 @@
       "github": "silverstripe/silverstripe-graphql",
       "packagist": "silverstripe/graphql",
       "githubId": 68341446,
-      "isCore": true,
+      "isCore": false,
       "lockstepped": false,
       "type": "module",
       "majorVersionMapping": {
@@ -616,7 +616,7 @@
       "github": "silverstripe/silverstripe-mimevalidator",
       "packagist": "silverstripe/mimevalidator",
       "githubId": 22493606,
-      "isCore": false,
+      "isCore": true,
       "lockstepped": false,
       "type": "module",
       "majorVersionMapping": {
@@ -1269,7 +1269,7 @@
       "github": "silverstripe/silverstripe-login-forms",
       "packagist": "silverstripe/login-forms",
       "githubId": 155142697,
-      "isCore": false,
+      "isCore": true,
       "lockstepped": false,
       "type": "module",
       "majorVersionMapping": {
