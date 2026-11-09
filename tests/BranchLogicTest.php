@@ -566,8 +566,6 @@ class BranchLogicTest extends TestCase
                     'no-require' => new stdClass(),
                 ],
                 'expected' => [
-                    $this->getVersionWithOffset($highestMajor, -1, '13'),
-                    $this->getVersionWithOffset($highestMajor, -1),
                     $this->getVersionWithOffset($highestMajor, 0, '0'),
                     $highestMajor,
                 ],
@@ -688,8 +686,6 @@ class BranchLogicTest extends TestCase
                 ],
                 'composerJson' => null,
                 'expected' => [
-                    $this->getVersionWithOffset($highestMajor, -1, '13'),
-                    $this->getVersionWithOffset($highestMajor, -1),
                     $this->getVersionWithOffset($highestMajor, 0, '1'),
                     $this->getVersionWithOffset($highestMajor, 0),
                 ],
