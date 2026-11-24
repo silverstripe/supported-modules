@@ -1055,6 +1055,17 @@
       }
     },
     {
+      "github": "silverstripe/silverstripe-userdocs-admin",
+      "packagist": "silverstripe/userdocs-admin",
+      "githubId": 1168055557,
+      "isCore": true,
+      "lockstepped": false,
+      "type": "module",
+      "majorVersionMapping": {
+        "6": ["1"]
+      }
+    },
+    {
       "github": "silverstripe/silverstripe-userforms",
       "packagist": "silverstripe/userforms",
       "githubId": 1247754,
